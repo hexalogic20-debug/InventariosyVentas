@@ -41,3 +41,5 @@ D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\Inv
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioProductos.resources
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioProveedores.resources
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Ajustes.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Topes.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_usuarios.resources

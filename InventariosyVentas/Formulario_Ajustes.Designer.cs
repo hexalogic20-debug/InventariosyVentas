@@ -128,6 +128,7 @@
             this.lblTopes.Size = new System.Drawing.Size(55, 18);
             this.lblTopes.TabIndex = 50;
             this.lblTopes.Text = "Topes";
+            this.lblTopes.Click += new System.EventHandler(this.lblTopes_Click);
             // 
             // panel10
             // 
@@ -147,6 +148,7 @@
             this.pictureBoxUsuarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxUsuarios.TabIndex = 6;
             this.pictureBoxUsuarios.TabStop = false;
+            this.pictureBoxUsuarios.Click += new System.EventHandler(this.pictureBoxUsuarios_Click);
             // 
             // panel11
             // 
@@ -166,6 +168,7 @@
             this.pictureBTopes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBTopes.TabIndex = 6;
             this.pictureBTopes.TabStop = false;
+            this.pictureBTopes.Click += new System.EventHandler(this.pictureBTopes_Click);
             // 
             // Formulario_Ajustes
             // 

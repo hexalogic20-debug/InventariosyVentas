@@ -130,6 +130,18 @@
     <Compile Include="Formulario_Home.Designer.cs">
       <DependentUpon>Formulario_Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario_Topes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_Topes.Designer.cs">
+      <DependentUpon>Formulario_Topes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_usuarios.Designer.cs">
+      <DependentUpon>Formulario_usuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="panelredondo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -174,6 +186,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_Home.resx">
       <DependentUpon>Formulario_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Topes.resx">
+      <DependentUpon>Formulario_Topes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_usuarios.resx">
+      <DependentUpon>Formulario_usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

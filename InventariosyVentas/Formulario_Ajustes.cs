@@ -64,5 +64,29 @@ namespace InventariosyVentas
         {
             this.Close();
         }
+
+        private void pictureBTopes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_Topes topes = new Formulario_Topes();
+            topes.ShowDialog();
+            this.Show();
+        }
+
+        private void lblTopes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_Topes topes = new Formulario_Topes();
+            topes.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBoxUsuarios_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_usuarios usuarios = new Formulario_usuarios();
+            usuarios.ShowDialog();
+            this .Show();
+        }
     }
 }
