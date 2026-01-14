@@ -33,20 +33,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblolvidopassword = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.panelPassword = new System.Windows.Forms.Panel();
+            this.pictureBoxOculo = new System.Windows.Forms.PictureBox();
+            this.pictureBoxVisible = new System.Windows.Forms.PictureBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.panelUsuario = new System.Windows.Forms.Panel();
             this.textBoxUsuario = new System.Windows.Forms.TextBox();
-            this.pictureBoxOculo = new System.Windows.Forms.PictureBox();
-            this.pictureBoxVisible = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelPassword.SuspendLayout();
-            this.panelUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOculo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVisible)).BeginInit();
+            this.panelUsuario.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -82,22 +80,12 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(296, 91);
+            this.pictureBox1.Location = new System.Drawing.Point(271, 94);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 89);
+            this.pictureBox1.Size = new System.Drawing.Size(153, 120);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(267, 185);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(172, 43);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
             // 
             // btnIngresar
             // 
@@ -120,6 +108,29 @@
             this.panelPassword.Name = "panelPassword";
             this.panelPassword.Size = new System.Drawing.Size(219, 36);
             this.panelPassword.TabIndex = 8;
+            // 
+            // pictureBoxOculo
+            // 
+            this.pictureBoxOculo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOculo.Image")));
+            this.pictureBoxOculo.Location = new System.Drawing.Point(174, 8);
+            this.pictureBoxOculo.Name = "pictureBoxOculo";
+            this.pictureBoxOculo.Size = new System.Drawing.Size(37, 20);
+            this.pictureBoxOculo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxOculo.TabIndex = 14;
+            this.pictureBoxOculo.TabStop = false;
+            this.pictureBoxOculo.Click += new System.EventHandler(this.pictureBoxOculo_Click);
+            // 
+            // pictureBoxVisible
+            // 
+            this.pictureBoxVisible.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxVisible.Image")));
+            this.pictureBoxVisible.Location = new System.Drawing.Point(174, 7);
+            this.pictureBoxVisible.Name = "pictureBoxVisible";
+            this.pictureBoxVisible.Size = new System.Drawing.Size(37, 20);
+            this.pictureBoxVisible.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxVisible.TabIndex = 13;
+            this.pictureBoxVisible.TabStop = false;
+            this.pictureBoxVisible.Visible = false;
+            this.pictureBoxVisible.Click += new System.EventHandler(this.pictureBoxVisible_Click);
             // 
             // textBoxPassword
             // 
@@ -145,29 +156,6 @@
             this.textBoxUsuario.Size = new System.Drawing.Size(208, 13);
             this.textBoxUsuario.TabIndex = 2;
             // 
-            // pictureBoxOculo
-            // 
-            this.pictureBoxOculo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOculo.Image")));
-            this.pictureBoxOculo.Location = new System.Drawing.Point(174, 8);
-            this.pictureBoxOculo.Name = "pictureBoxOculo";
-            this.pictureBoxOculo.Size = new System.Drawing.Size(37, 20);
-            this.pictureBoxOculo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxOculo.TabIndex = 14;
-            this.pictureBoxOculo.TabStop = false;
-            this.pictureBoxOculo.Click += new System.EventHandler(this.pictureBoxOculo_Click);
-            // 
-            // pictureBoxVisible
-            // 
-            this.pictureBoxVisible.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxVisible.Image")));
-            this.pictureBoxVisible.Location = new System.Drawing.Point(174, 7);
-            this.pictureBoxVisible.Name = "pictureBoxVisible";
-            this.pictureBoxVisible.Size = new System.Drawing.Size(37, 20);
-            this.pictureBoxVisible.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxVisible.TabIndex = 13;
-            this.pictureBoxVisible.TabStop = false;
-            this.pictureBoxVisible.Visible = false;
-            this.pictureBoxVisible.Click += new System.EventHandler(this.pictureBoxVisible_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -177,7 +165,6 @@
             this.Controls.Add(this.panelUsuario);
             this.Controls.Add(this.panelPassword);
             this.Controls.Add(this.btnIngresar);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblolvidopassword);
             this.Controls.Add(this.label2);
@@ -189,13 +176,12 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelPassword.ResumeLayout(false);
             this.panelPassword.PerformLayout();
-            this.panelUsuario.ResumeLayout(false);
-            this.panelUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOculo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVisible)).EndInit();
+            this.panelUsuario.ResumeLayout(false);
+            this.panelUsuario.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,7 +192,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblolvidopassword;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Panel panelPassword;
         private System.Windows.Forms.TextBox textBoxPassword;

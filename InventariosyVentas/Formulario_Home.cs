@@ -23,32 +23,15 @@ namespace InventariosyVentas
 
         private void Formulario_Home_Load(object sender, EventArgs e)
         {
-            DibujarBordeRedondeado(panel2, 20, Color.FromArgb(178, 178, 179), 2);
+            // Llamada directa al método estático
+            panelredondo.DibujarBordeRedondeado(panel2, 20, Color.FromArgb(178, 178, 179), 2);
+
             panel2.BackColor = Color.White;
 
 
-
         }
 
-        public static void DibujarBordeRedondeado(Panel panel, int radio, Color color, int grosor = 2)
-        {
-            panel.Paint += (s, e) =>
-            {
-                e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-                using (GraphicsPath path = new GraphicsPath())
-                {
-                    path.AddArc(0, 0, radio, radio, 180, 90);
-                    path.AddArc(panel.Width - radio - 1, 0, radio, radio, 270, 90);
-                    path.AddArc(panel.Width - radio - 1, panel.Height - radio - 1, radio, radio, 0, 90); path.AddArc(0, panel.Height - radio - 1, radio, radio, 90, 90); path.CloseFigure();
-                    using (Pen pen = new Pen(color, grosor))
-                    {
-                        e.Graphics.DrawPath(pen, path);
-                    }
-                }
-            };
-            panel.Invalidate(); // fuerza repintado
-        }
-
+      
         public static void PanelCircular(Panel panel)
         {
             panel.Resize += (s, e) =>
@@ -191,6 +174,129 @@ namespace InventariosyVentas
                 Application.Exit();
             }
             // Si elige "No", simplemente no hace nada
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            int sombra = 4; // tamaño del desplazamiento de la sombra
+
+            // dibuja la sombra detrás del panel, desplazada
+            using (SolidBrush shadowBrush = new SolidBrush(Color.FromArgb(50, 0, 0, 0))) // negro semitransparente
+            {
+                e.Graphics.FillRectangle(
+                    shadowBrush,
+                    sombra,
+                    sombra,
+                    panel11.Width - sombra,
+                    panel11.Height - sombra
+                );
+            }
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            int sombra = 4; // tamaño del desplazamiento de la sombra
+
+            // dibuja la sombra detrás del panel, desplazada
+            using (SolidBrush shadowBrush = new SolidBrush(Color.FromArgb(50, 0, 0, 0))) // negro semitransparente
+            {
+                e.Graphics.FillRectangle(
+                    shadowBrush,
+                    sombra,
+                    sombra,
+                    panel10.Width - sombra,
+                    panel10.Height - sombra
+                );
+            }
+        }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            int sombra = 4; // tamaño del desplazamiento de la sombra
+
+            // dibuja la sombra detrás del panel, desplazada
+            using (SolidBrush shadowBrush = new SolidBrush(Color.FromArgb(50, 0, 0, 0))) // negro semitransparente
+            {
+                e.Graphics.FillRectangle(
+                    shadowBrush,
+                    sombra,
+                    sombra,
+                    panel9.Width - sombra,
+                    panel9.Height - sombra
+                );
+            }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBoxinventario_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioInventario inventario = new FormularioInventario();
+            inventario.ShowDialog();
+            this.Show();
+        }
+
+        private void labelinventario_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioInventario inventario = new FormularioInventario();
+            inventario.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBoxfacturacion_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioFacturacion facturacion = new FormularioFacturacion();
+            facturacion.ShowDialog();
+            this.Show();
+        }
+
+        private void labelfacturacion_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioFacturacion facturacion = new FormularioFacturacion();
+            facturacion.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBoxconsultas_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioConsultas consultas = new FormularioConsultas();
+            consultas.ShowDialog();
+            this.Show();
+        }
+
+        private void labelconsultas_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioConsultas consultas = new FormularioConsultas();
+            consultas.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBoxproductos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioProductos productos = new FormularioProductos();
+            productos.ShowDialog();
+            this.Show();
+        }
+
+        private void labelproductos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioProductos productos = new FormularioProductos();
+            productos.ShowDialog();
+            this.Show();
         }
     }
     }
