@@ -1,0 +1,12 @@
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\InventariosyVentas.exe.config
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\InventariosyVentas.exe
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\InventariosyVentas.pdb
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.csproj.AssemblyReference.cache
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Form1.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Properties.Resources.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.csproj.GenerateResource.cache
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.csproj.CoreCompileInputs.cache
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.pdb
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Home.resources
