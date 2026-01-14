@@ -340,6 +340,7 @@
             this.labelajustes.Size = new System.Drawing.Size(63, 18);
             this.labelajustes.TabIndex = 29;
             this.labelajustes.Text = "Ajustes";
+            this.labelajustes.Click += new System.EventHandler(this.labelajustes_Click);
             // 
             // label8
             // 
@@ -381,6 +382,7 @@
             this.pictureBoxajustes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxajustes.TabIndex = 6;
             this.pictureBoxajustes.TabStop = false;
+            this.pictureBoxajustes.Click += new System.EventHandler(this.pictureBoxajustes_Click);
             // 
             // panel10
             // 

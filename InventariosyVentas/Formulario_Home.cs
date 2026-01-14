@@ -362,5 +362,21 @@ namespace InventariosyVentas
             devoluciones.ShowDialog();
             this.Show();
         }
+
+        private void pictureBoxajustes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_Ajustes ajustes = new Formulario_Ajustes();
+            ajustes.ShowDialog();
+            this.Show();
+        }
+
+        private void labelajustes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_Ajustes ajustes = new Formulario_Ajustes();
+            ajustes.ShowDialog();
+            this.Show();
+        }
     }
     }
