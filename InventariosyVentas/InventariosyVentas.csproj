@@ -58,11 +58,29 @@
     <Compile Include="FormularioConsultas.Designer.cs">
       <DependentUpon>FormularioConsultas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioDashboard.Designer.cs">
+      <DependentUpon>FormularioDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioDevoluciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioDevoluciones.Designer.cs">
+      <DependentUpon>FormularioDevoluciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioFacturacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioFacturacion.Designer.cs">
       <DependentUpon>FormularioFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioGastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioGastos.Designer.cs">
+      <DependentUpon>FormularioGastos.cs</DependentUpon>
     </Compile>
     <Compile Include="FormularioInventario.cs">
       <SubType>Form</SubType>
@@ -75,6 +93,12 @@
     </Compile>
     <Compile Include="FormularioProductos.Designer.cs">
       <DependentUpon>FormularioProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioProveedores.Designer.cs">
+      <DependentUpon>FormularioProveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario_Home.cs">
       <SubType>Form</SubType>
@@ -91,14 +115,26 @@
     <EmbeddedResource Include="FormularioConsultas.resx">
       <DependentUpon>FormularioConsultas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormularioDashboard.resx">
+      <DependentUpon>FormularioDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioDevoluciones.resx">
+      <DependentUpon>FormularioDevoluciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioFacturacion.resx">
       <DependentUpon>FormularioFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioGastos.resx">
+      <DependentUpon>FormularioGastos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioInventario.resx">
       <DependentUpon>FormularioInventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioProductos.resx">
       <DependentUpon>FormularioProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioProveedores.resx">
+      <DependentUpon>FormularioProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_Home.resx">
       <DependentUpon>Formulario_Home.cs</DependentUpon>

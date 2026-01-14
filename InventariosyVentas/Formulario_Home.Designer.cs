@@ -243,6 +243,7 @@
             this.pictureBoxproveedores.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxproveedores.TabIndex = 6;
             this.pictureBoxproveedores.TabStop = false;
+            this.pictureBoxproveedores.Click += new System.EventHandler(this.pictureBoxproveedores_Click);
             // 
             // panel8
             // 
@@ -262,6 +263,7 @@
             this.pictureBoxdevoluciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxdevoluciones.TabIndex = 6;
             this.pictureBoxdevoluciones.TabStop = false;
+            this.pictureBoxdevoluciones.Click += new System.EventHandler(this.pictureBoxdevoluciones_Click);
             // 
             // labelinventario
             // 
@@ -316,6 +318,7 @@
             this.labelproveedores.Size = new System.Drawing.Size(104, 18);
             this.labelproveedores.TabIndex = 22;
             this.labelproveedores.Text = "Proveedores";
+            this.labelproveedores.Click += new System.EventHandler(this.labelproveedores_Click);
             // 
             // labeldevoluciones
             // 
@@ -326,6 +329,7 @@
             this.labeldevoluciones.Size = new System.Drawing.Size(110, 18);
             this.labeldevoluciones.TabIndex = 23;
             this.labeldevoluciones.Text = "Devoluciones";
+            this.labeldevoluciones.Click += new System.EventHandler(this.labeldevoluciones_Click);
             // 
             // labelajustes
             // 
@@ -346,6 +350,7 @@
             this.label8.Size = new System.Drawing.Size(90, 18);
             this.label8.TabIndex = 28;
             this.label8.Text = "Dashboard";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // labelgastos
             // 
@@ -356,6 +361,7 @@
             this.labelgastos.Size = new System.Drawing.Size(63, 18);
             this.labelgastos.TabIndex = 27;
             this.labelgastos.Text = "Gastos";
+            this.labelgastos.Click += new System.EventHandler(this.labelgastos_Click);
             // 
             // panel9
             // 
@@ -394,6 +400,7 @@
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 6;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // panel11
             // 
@@ -413,6 +420,7 @@
             this.pictureBoxgastos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxgastos.TabIndex = 6;
             this.pictureBoxgastos.TabStop = false;
+            this.pictureBoxgastos.Click += new System.EventHandler(this.pictureBoxgastos_Click);
             // 
             // Formulario_Home
             // 

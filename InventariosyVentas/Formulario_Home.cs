@@ -298,5 +298,69 @@ namespace InventariosyVentas
             productos.ShowDialog();
             this.Show();
         }
+
+        private void pictureBoxgastos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioGastos gastos = new FormularioGastos();
+            gastos.ShowDialog();
+            this.Show();
+        }
+
+        private void labelgastos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioGastos gastos = new FormularioGastos();
+            gastos.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+    FormularioDashboard dashboard = new FormularioDashboard();
+            dashboard.ShowDialog();
+            this.Show();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioDashboard dashboard = new FormularioDashboard();
+            dashboard.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBoxproveedores_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioProveedores proveedores = new FormularioProveedores();
+            proveedores.ShowDialog();
+            this.Show();
+        }
+
+        private void labelproveedores_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioProveedores proveedores = new FormularioProveedores();
+            proveedores.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBoxdevoluciones_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioDevoluciones devoluciones = new FormularioDevoluciones();
+            devoluciones.ShowDialog();
+            this.Show();
+        }
+
+        private void labeldevoluciones_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioDevoluciones devoluciones = new FormularioDevoluciones();
+            devoluciones.ShowDialog();
+            this.Show();
+        }
     }
     }
