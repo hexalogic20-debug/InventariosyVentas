@@ -16,5 +16,17 @@ namespace InventariosyVentas
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Tag = "Si";
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Tag = "";
+            this.Close();
+        }
     }
 }
