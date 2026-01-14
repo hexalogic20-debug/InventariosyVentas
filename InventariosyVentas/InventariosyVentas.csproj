@@ -88,6 +88,24 @@
     <Compile Include="FormularioInventario.Designer.cs">
       <DependentUpon>FormularioInventario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioMensageConfirmar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioMensageConfirmar.Designer.cs">
+      <DependentUpon>FormularioMensageConfirmar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioMensageEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioMensageEliminar.Designer.cs">
+      <DependentUpon>FormularioMensageEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioMensageGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioMensageGeneral.Designer.cs">
+      <DependentUpon>FormularioMensageGeneral.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +147,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioInventario.resx">
       <DependentUpon>FormularioInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioMensageConfirmar.resx">
+      <DependentUpon>FormularioMensageConfirmar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioMensageEliminar.resx">
+      <DependentUpon>FormularioMensageEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioMensageGeneral.resx">
+      <DependentUpon>FormularioMensageGeneral.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioProductos.resx">
       <DependentUpon>FormularioProductos.cs</DependentUpon>
