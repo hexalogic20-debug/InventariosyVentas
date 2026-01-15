@@ -9,72 +9,30 @@ namespace InventariosyVentas
         public Formulario_Bienvenida()
         {
             InitializeComponent();
-            progressBar1.ForeColor = Color.Blue;
-            // NO cambia el color por defecto
+
+            // Estilo continuo (no crea otro control)
             progressBar1.Style = ProgressBarStyle.Continuous;
-            // estilo continuo
-           
-        }
-        private void progressBar1_Paint(object sender, PaintEventArgs e)
-        {
-            // Fondo gris
-            e.Graphics.FillRectangle(Brushes.LightGray, progressBar1.ClientRectangle);
 
-            // Avance azul
-            int ancho = (int)(progressBar1.ClientRectangle.Width * ((double)progressBar1.Value / progressBar1.Maximum));
-            e.Graphics.FillRectangle(Brushes.Blue, 0, 0, ancho, progressBar1.ClientRectangle.Height);
-        }
-
-
-        private void Formulario_Bienvenida_Load(object sender, EventArgs e)
-        {
-            this.Opacity = 0;
-            timer1.Interval = 15;
-            timer1.Start();
-
-            // Configuración inicial del ProgressBar
-            progressBar1.Minimum = 0;
-            progressBar1.Maximum = 100;
-            progressBar1.Value = 0;
-
-            // Configurar segundo Timer para avanzar el progreso
-            timer2.Interval = 50; // cada 50 ms avanza
-            timer2.Start();
-        }
-
-        // Animación de opacidad
-       
-
-        // Avance del ProgressBar
-       
-
-        // Método para abrir otro formulario
-        private void AbrirFormularioPrincipal()
-        {
-            this.Hide();
-            Form1 login = new Form1();
-            login.ShowDialog();
-            this.Close();
-        }
-
-       
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
+            // Pintar en azul el avance del progressBar existente
+            progressBar1.Paint += progressBar1_Paint;
         }
 
         private void Formulario_Bienvenida_Load_1(object sender, EventArgs e)
         {
-            this.Opacity = 0; timer1.Interval = 15; timer1.Start();
-            // Configuración inicial del ProgressBar
-            progressBar1.Minimum = 0; progressBar1.Maximum = 100; 
-            progressBar1.Value = 0; 
-            // Configurar segundo Timer para avanzar el progreso
+            // Elimina cualquier otro método Load duplicado (como Formulario_Bienvenida_Load_1)
+            this.Opacity = 0;
+            timer1.Interval = 15;
+            timer1.Start();
+
+            // Configuración del ProgressBar existente
+            progressBar1.Minimum = 0;
+            progressBar1.Maximum = 100;
+            progressBar1.Value = 0;
+
+            // Conectar el Tick del timer2 al método correcto (sin crear otro control)
             timer2.Interval = 50;
-            // cada 50 ms avanza
-            timer2.Tick += new EventHandler(timer2_Tick); 
-            // <-- aquí conectas el evento
+            timer2.Tick -= timer2_Tick; // por si estaba conectado dos veces
+            timer2.Tick += timer2_Tick;
             timer2.Start();
         }
 
@@ -84,7 +42,6 @@ namespace InventariosyVentas
                 this.Opacity += 0.05;
             else
                 timer1.Stop();
-
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -92,13 +49,35 @@ namespace InventariosyVentas
             if (progressBar1.Value < progressBar1.Maximum)
             {
                 progressBar1.Value += 1;
-                lblValue.Text = progressBar1.Value.ToString() + "%";
+                lblValue.Text = progressBar1.Value + "%";
+
+                // Forzar repintado para ver el azul en cada avance
+                progressBar1.Invalidate();
             }
             else
             {
                 timer2.Stop();
                 AbrirFormularioPrincipal();
             }
+        }
+
+        private void progressBar1_Paint(object sender, PaintEventArgs e)
+        {
+            // Fondo gris
+            e.Graphics.FillRectangle(Brushes.LightGray, progressBar1.ClientRectangle);
+            // Avance azul
+            int ancho = (int)(progressBar1.ClientRectangle.Width * ((double)progressBar1.Value / progressBar1.Maximum));
+            e.Graphics.FillRectangle(Brushes.Blue, 0, 0, ancho, progressBar1.ClientRectangle.Height);
+        }
+
+        private void AbrirFormularioPrincipal()
+        {
+            this.Hide();
+            using (Form1 login = new Form1())
+            {
+                login.ShowDialog();
+            }
+            this.Close();
         }
     }
 }
