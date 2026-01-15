@@ -66,7 +66,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1008, 110);
+            this.panel3.Size = new System.Drawing.Size(1008, 138);
             this.panel3.TabIndex = 11;
             // 
             // panel2
@@ -119,9 +119,9 @@
             // 
             this.flpInventario.AutoScroll = true;
             this.flpInventario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpInventario.Location = new System.Drawing.Point(0, 110);
+            this.flpInventario.Location = new System.Drawing.Point(0, 138);
             this.flpInventario.Name = "flpInventario";
-            this.flpInventario.Size = new System.Drawing.Size(1008, 582);
+            this.flpInventario.Size = new System.Drawing.Size(1008, 554);
             this.flpInventario.TabIndex = 12;
             this.flpInventario.Paint += new System.Windows.Forms.PaintEventHandler(this.flpInventario_Paint);
             // 
