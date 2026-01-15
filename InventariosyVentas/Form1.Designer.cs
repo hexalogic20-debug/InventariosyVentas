@@ -51,7 +51,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(245, 240);
+            this.label1.Location = new System.Drawing.Point(245, 192);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 15);
             this.label1.TabIndex = 2;
@@ -61,7 +61,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(249, 312);
+            this.label2.Location = new System.Drawing.Point(249, 264);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 15);
             this.label2.TabIndex = 3;
@@ -71,7 +71,7 @@
             // 
             this.lblolvidopassword.AutoSize = true;
             this.lblolvidopassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(137)))), ((int)(((byte)(239)))));
-            this.lblolvidopassword.Location = new System.Drawing.Point(284, 386);
+            this.lblolvidopassword.Location = new System.Drawing.Point(284, 338);
             this.lblolvidopassword.Name = "lblolvidopassword";
             this.lblolvidopassword.Size = new System.Drawing.Size(140, 13);
             this.lblolvidopassword.TabIndex = 4;
@@ -80,7 +80,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(271, 94);
+            this.pictureBox1.Location = new System.Drawing.Point(271, 64);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(153, 120);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -91,7 +91,7 @@
             // 
             this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(137)))), ((int)(((byte)(239)))));
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
-            this.btnIngresar.Location = new System.Drawing.Point(316, 417);
+            this.btnIngresar.Location = new System.Drawing.Point(316, 369);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(79, 31);
             this.btnIngresar.TabIndex = 7;
@@ -104,7 +104,7 @@
             this.panelPassword.Controls.Add(this.pictureBoxOculo);
             this.panelPassword.Controls.Add(this.pictureBoxVisible);
             this.panelPassword.Controls.Add(this.textBoxPassword);
-            this.panelPassword.Location = new System.Drawing.Point(246, 332);
+            this.panelPassword.Location = new System.Drawing.Point(246, 284);
             this.panelPassword.Name = "panelPassword";
             this.panelPassword.Size = new System.Drawing.Size(219, 33);
             this.panelPassword.TabIndex = 8;
@@ -143,7 +143,7 @@
             // panelUsuario
             // 
             this.panelUsuario.Controls.Add(this.textBoxUsuario);
-            this.panelUsuario.Location = new System.Drawing.Point(247, 259);
+            this.panelUsuario.Location = new System.Drawing.Point(247, 211);
             this.panelUsuario.Name = "panelUsuario";
             this.panelUsuario.Size = new System.Drawing.Size(219, 30);
             this.panelUsuario.TabIndex = 9;
