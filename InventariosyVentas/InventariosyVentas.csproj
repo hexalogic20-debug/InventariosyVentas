@@ -124,6 +124,12 @@
     <Compile Include="Formulario_Ajustes.Designer.cs">
       <DependentUpon>Formulario_Ajustes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario_Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_Bienvenida.Designer.cs">
+      <DependentUpon>Formulario_Bienvenida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario_Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_Ajustes.resx">
       <DependentUpon>Formulario_Ajustes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Bienvenida.resx">
+      <DependentUpon>Formulario_Bienvenida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_Home.resx">
       <DependentUpon>Formulario_Home.cs</DependentUpon>
