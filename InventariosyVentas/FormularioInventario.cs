@@ -26,6 +26,9 @@ namespace InventariosyVentas
         public FormularioInventario()
         {
             InitializeComponent();
+            this.textBoxBuscar.AutoSize = false;
+            this.textBoxBuscar.Height = 20;
+
         }
 
         private void FormularioInventario_Load(object sender, EventArgs e)
@@ -34,6 +37,9 @@ namespace InventariosyVentas
             panelredondo.DibujarBordeRedondeado(panel2, 20, Color.FromArgb(178, 178, 179), 2);
             panel2.BackColor = Color.White;
 
+            panelredondo.DibujarBordeRedondeado(panelBuscar, 20, Color.FromArgb(178, 178, 179), 2);
+            panelBuscar.BackColor = Color.White;
+
             // Cargar productos de prueba en el FlowLayoutPanel
             flpInventario.Controls.Clear();
             foreach (var p in productosDemo)
@@ -41,16 +47,19 @@ namespace InventariosyVentas
                 var card = CrearCardProducto(p.Nombre, p.Valor, p.Stock, p.ImagenRuta);
                 flpInventario.Controls.Add(card);
             }
+
+            
+
         }
 
         private Panel CrearCardProducto(string nombre, decimal valor, int stock, string imagenArchivo)
         {
             Panel card = new Panel
             {
-                Width = 220,
-                Height = 280,
+                Width = 170,   // antes 110 (+20)
+                Height = 200,  // antes 140 (+20)
                 BorderStyle = BorderStyle.FixedSingle,
-                Margin = new Padding(10),
+                Margin = new Padding(5),
                 BackColor = Color.White
             };
 
@@ -59,14 +68,13 @@ namespace InventariosyVentas
 
             PictureBox pic = new PictureBox
             {
-                Width = 120,
-                Height = 120,
+                Width = 80,   // antes 60 (+20)
+                Height = 80,  // antes 60 (+20)
                 SizeMode = PictureBoxSizeMode.Zoom,
-                Top = 15,
-                Left = 50
+                Top = 8,
+                Left = 25
             };
 
-            // Si el archivo existe, cargarlo; si no, dejar vacío
             if (File.Exists(ruta))
                 pic.ImageLocation = ruta;
 
@@ -74,51 +82,51 @@ namespace InventariosyVentas
             {
                 Text = nombre,
                 TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                Font = new Font("Segoe UI", 10, FontStyle.Bold), // aumenté un poco la fuente
                 AutoSize = false,
-                Width = 180,
-                Top = 145,
-                Left = 20
+                Width = 110,   // antes 90 (+20)
+                Top = 92,      // ajustado
+                Left = 10
             };
 
             Label lblValor = new Label
             {
                 Text = $"Valor: ${valor:N0}",
                 TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Segoe UI", 9),
+                Font = new Font("Segoe UI",10),
                 AutoSize = false,
-                Width = 180,
-                Top = 170,
-                Left = 20
+                Width = 110,   // antes 90 (+20)
+                Top = 110,
+                Left = 10
             };
 
             Label lblStock = new Label
             {
                 Text = $"Stock: {stock} unidades",
                 TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Segoe UI", 9),
+                Font = new Font("Segoe UI",10),
                 AutoSize = false,
-                Width = 180,
-                Top = 192,
-                Left = 20
+                Width = 110,   // antes 90 (+20)
+                Top = 130,
+                Left = 10
             };
 
             Button btnEditar = new Button
             {
                 Text = "Editar",
                 BackColor = Color.LightBlue,
-                Width = 90,
-                Top = 225,
-                Left = 20
+                Width = 65,   // antes 45 (+20)
+                Top = 160,
+                Left = 10
             };
 
             Button btnEliminar = new Button
             {
                 Text = "Eliminar",
                 BackColor = Color.LightCoral,
-                Width = 90,
-                Top = 225,
-                Left = 110
+                Width = 65,   // antes 45 (+20)
+                Top = 160,
+                Left = 75     // antes 55 (+20)
             };
 
             card.Controls.Add(pic);
@@ -139,6 +147,41 @@ namespace InventariosyVentas
         private void flpInventario_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+       
+
+        
+
+       
+
+        
+
+       
+
+        private void pictureBoxBuscar_Click(object sender, EventArgs e)
+        {
+            pictureBoxBuscar.Visible = false;
+        }
+
+        
+
+      
+
+        private void textBoxBuscar_TextChanged(object sender, EventArgs e)
+        {
+
+            if (pictureBoxBuscar.Visible == true)
+            {
+                pictureBoxBuscar.Visible = false;
+            }
+        
+
+       
         }
     }
 }

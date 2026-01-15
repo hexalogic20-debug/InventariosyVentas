@@ -37,12 +37,23 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
             this.flpInventario = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panelBuscar = new System.Windows.Forms.Panel();
+            this.pictureBoxBuscar = new System.Windows.Forms.PictureBox();
+            this.textBoxBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panelBuscar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBuscar)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -66,8 +77,9 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1008, 138);
+            this.panel3.Size = new System.Drawing.Size(1008, 103);
             this.panel3.TabIndex = 11;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // panel2
             // 
@@ -118,12 +130,71 @@
             // flpInventario
             // 
             this.flpInventario.AutoScroll = true;
-            this.flpInventario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpInventario.Location = new System.Drawing.Point(0, 138);
+            this.flpInventario.Location = new System.Drawing.Point(55, 53);
             this.flpInventario.Name = "flpInventario";
-            this.flpInventario.Size = new System.Drawing.Size(1008, 554);
+            this.flpInventario.Size = new System.Drawing.Size(949, 533);
             this.flpInventario.TabIndex = 12;
             this.flpInventario.Paint += new System.Windows.Forms.PaintEventHandler(this.flpInventario_Paint);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(700, 11);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.flpInventario);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 103);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1008, 589);
+            this.panel4.TabIndex = 22;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.panelBuscar);
+            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1008, 52);
+            this.panel5.TabIndex = 22;
+           
+            // 
+            // panelBuscar
+            // 
+            this.panelBuscar.Controls.Add(this.pictureBoxBuscar);
+            this.panelBuscar.Controls.Add(this.textBoxBuscar);
+            this.panelBuscar.Location = new System.Drawing.Point(733, 10);
+            this.panelBuscar.Name = "panelBuscar";
+            this.panelBuscar.Size = new System.Drawing.Size(219, 30);
+            this.panelBuscar.TabIndex = 21;
+            // 
+            // pictureBoxBuscar
+            // 
+            this.pictureBoxBuscar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxBuscar.Image")));
+            this.pictureBoxBuscar.Location = new System.Drawing.Point(5, 7);
+            this.pictureBoxBuscar.Name = "pictureBoxBuscar";
+            this.pictureBoxBuscar.Size = new System.Drawing.Size(17, 12);
+            this.pictureBoxBuscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxBuscar.TabIndex = 21;
+            this.pictureBoxBuscar.TabStop = false;
+            this.pictureBoxBuscar.Click += new System.EventHandler(this.pictureBoxBuscar_Click);
+            // 
+            // textBoxBuscar
+            // 
+            this.textBoxBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxBuscar.Location = new System.Drawing.Point(5, 9);
+            this.textBoxBuscar.Name = "textBoxBuscar";
+            this.textBoxBuscar.Size = new System.Drawing.Size(208, 13);
+            this.textBoxBuscar.TabIndex = 2;
+            this.textBoxBuscar.TextChanged += new System.EventHandler(this.textBoxBuscar_TextChanged);
             // 
             // FormularioInventario
             // 
@@ -131,7 +202,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1008, 692);
-            this.Controls.Add(this.flpInventario);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormularioInventario";
@@ -144,6 +215,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panelBuscar.ResumeLayout(false);
+            this.panelBuscar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBuscar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -158,5 +235,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBoxUsuario;
         private System.Windows.Forms.FlowLayoutPanel flpInventario;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panelBuscar;
+        private System.Windows.Forms.TextBox textBoxBuscar;
+        private System.Windows.Forms.PictureBox pictureBoxBuscar;
     }
 }
