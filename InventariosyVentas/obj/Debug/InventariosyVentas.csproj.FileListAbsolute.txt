@@ -29,3 +29,6 @@ C:\Users\EMANUEL\Source\Repos\InventariosyVentas\InventariosyVentas\obj\Debug\In
 C:\Users\EMANUEL\Source\Repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioDashboard.resources
 C:\Users\EMANUEL\Source\Repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioDevoluciones.resources
 C:\Users\EMANUEL\Source\Repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioProveedores.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioMensageConfirmar.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioMensageEliminar.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioMensageGeneral.resources
