@@ -23,10 +23,10 @@ namespace InventariosyVentas
             InitializeComponent();
             textBoxPassword.UseSystemPasswordChar = true;
             this.textBoxUsuario.AutoSize = false;
-            this.textBoxUsuario.Height = 28;
+            this.textBoxUsuario.Height = 20;
 
             this.textBoxPassword.AutoSize = false;
-            this.textBoxPassword.Height = 28;
+            this.textBoxPassword.Height = 20;
 
            
         }
