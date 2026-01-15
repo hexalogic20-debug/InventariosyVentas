@@ -1,60 +1,134 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace InventariosyVentas
 {
     public partial class FormularioInventario : Form
     {
+        // ✅ Lista de productos de prueba (solo nombres de archivo)
+        private List<Producto> productosDemo = new List<Producto>
+        {
+            new Producto { Id = 1, Nombre = "Peluches Oso", Valor = 20000, Stock = 15, ImagenRuta = "oso.png" },
+            new Producto { Id = 2, Nombre = "Caja de Palomitas", Valor = 10000, Stock = 20, ImagenRuta = "palomitas.png" },
+            new Producto { Id = 3, Nombre = "Carrito de Juguete", Valor = 35000, Stock = 8, ImagenRuta = "carrito.png" },
+            new Producto { Id = 4, Nombre = "Muñeca Clásica", Valor = 45000, Stock = 12, ImagenRuta = "muneca.png" },
+            new Producto { Id = 5, Nombre = "Rompecabezas 500 piezas", Valor = 30000, Stock = 5, ImagenRuta = "rompecabezas.png" }
+        };
+
         public FormularioInventario()
         {
             InitializeComponent();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-       
-
         private void FormularioInventario_Load(object sender, EventArgs e)
         {
-            // Llamada directa al método estático
+            // Dibujar borde redondeado en panel2 (si tienes esa clase utilitaria)
             panelredondo.DibujarBordeRedondeado(panel2, 20, Color.FromArgb(178, 178, 179), 2);
-
             panel2.BackColor = Color.White;
+
+            // Cargar productos de prueba en el FlowLayoutPanel
+            flpInventario.Controls.Clear();
+            foreach (var p in productosDemo)
+            {
+                var card = CrearCardProducto(p.Nombre, p.Valor, p.Stock, p.ImagenRuta);
+                flpInventario.Controls.Add(card);
+            }
         }
 
-        private void pictureBoxUsuario_Click(object sender, EventArgs e)
+        private Panel CrearCardProducto(string nombre, decimal valor, int stock, string imagenArchivo)
         {
+            Panel card = new Panel
+            {
+                Width = 220,
+                Height = 280,
+                BorderStyle = BorderStyle.FixedSingle,
+                Margin = new Padding(10),
+                BackColor = Color.White
+            };
 
-        }
+            // 🔹 Construir ruta completa a la carpeta "Imagenes Productos"
+            string ruta = Path.Combine(Application.StartupPath, "Imagenes Productos", imagenArchivo);
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
+            PictureBox pic = new PictureBox
+            {
+                Width = 120,
+                Height = 120,
+                SizeMode = PictureBoxSizeMode.Zoom,
+                Top = 15,
+                Left = 50
+            };
 
+            // Si el archivo existe, cargarlo; si no, dejar vacío
+            if (File.Exists(ruta))
+                pic.ImageLocation = ruta;
+
+            Label lblNombre = new Label
+            {
+                Text = nombre,
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                AutoSize = false,
+                Width = 180,
+                Top = 145,
+                Left = 20
+            };
+
+            Label lblValor = new Label
+            {
+                Text = $"Valor: ${valor:N0}",
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 9),
+                AutoSize = false,
+                Width = 180,
+                Top = 170,
+                Left = 20
+            };
+
+            Label lblStock = new Label
+            {
+                Text = $"Stock: {stock} unidades",
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 9),
+                AutoSize = false,
+                Width = 180,
+                Top = 192,
+                Left = 20
+            };
+
+            Button btnEditar = new Button
+            {
+                Text = "Editar",
+                BackColor = Color.LightBlue,
+                Width = 90,
+                Top = 225,
+                Left = 20
+            };
+
+            Button btnEliminar = new Button
+            {
+                Text = "Eliminar",
+                BackColor = Color.LightCoral,
+                Width = 90,
+                Top = 225,
+                Left = 110
+            };
+
+            card.Controls.Add(pic);
+            card.Controls.Add(lblNombre);
+            card.Controls.Add(lblValor);
+            card.Controls.Add(lblStock);
+            card.Controls.Add(btnEditar);
+            card.Controls.Add(btnEliminar);
+
+            return card;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

@@ -161,19 +161,37 @@ namespace InventariosyVentas
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            DialogResult resultado = MessageBox.Show(
-                "¿Está seguro que desea salir del sistema?",
-                "Confirmación",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question
-            );
+        //DialogResult resultado = MessageBox.Show(
+        //    "¿Está seguro que desea salir del sistema?",
+        //    "Confirmación",
+        //    MessageBoxButtons.YesNo,
+        //    MessageBoxIcon.Question
+        //);
 
-            if (resultado == DialogResult.Yes)
+        //if (resultado == DialogResult.Yes)
+        //{
+        //    // Cierra toda la aplicación
+        //    Application.Exit();
+        //}
+        // Si elige "No", simplemente no hace nada
+
+            this.Hide();
+            FormularioMensageConfirmar confirmar = new FormularioMensageConfirmar();
+            confirmar.labelConfirmacion.Text = "¿ Está seguro que desea salir del sistema ?";
+            confirmar.ShowDialog();
+            if (confirmar.Tag?.ToString() != "Si")
             {
-                // Cierra toda la aplicación
-                Application.Exit();
+                this.Show();
+                return;
             }
-            // Si elige "No", simplemente no hace nada
+            else
+            {
+                Application.Exit();
+                
+            }
+
+           
+
         }
 
         private void panel11_Paint(object sender, PaintEventArgs e)
@@ -360,6 +378,22 @@ namespace InventariosyVentas
             this.Hide();
             FormularioDevoluciones devoluciones = new FormularioDevoluciones();
             devoluciones.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBoxajustes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_Ajustes ajustes = new Formulario_Ajustes();
+            ajustes.ShowDialog();
+            this.Show();
+        }
+
+        private void labelajustes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_Ajustes ajustes = new Formulario_Ajustes();
+            ajustes.ShowDialog();
             this.Show();
         }
     }

@@ -17,8 +17,9 @@ namespace InventariosyVentas
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
            // Application.Run(new Form1());
-           Application.Run(new Formulario_Home());
-            //Application.Run(new FormularioInventario());
+           //Application.Run(new Formulario_Bienvenida());
+            Application.Run(new FormularioFacturacion());
+
         }
     }
 }

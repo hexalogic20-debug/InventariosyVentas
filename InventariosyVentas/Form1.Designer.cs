@@ -106,7 +106,7 @@
             this.panelPassword.Controls.Add(this.textBoxPassword);
             this.panelPassword.Location = new System.Drawing.Point(246, 332);
             this.panelPassword.Name = "panelPassword";
-            this.panelPassword.Size = new System.Drawing.Size(219, 36);
+            this.panelPassword.Size = new System.Drawing.Size(219, 33);
             this.panelPassword.TabIndex = 8;
             // 
             // pictureBoxOculo
@@ -145,7 +145,7 @@
             this.panelUsuario.Controls.Add(this.textBoxUsuario);
             this.panelUsuario.Location = new System.Drawing.Point(247, 259);
             this.panelUsuario.Name = "panelUsuario";
-            this.panelUsuario.Size = new System.Drawing.Size(219, 36);
+            this.panelUsuario.Size = new System.Drawing.Size(219, 30);
             this.panelUsuario.TabIndex = 9;
             // 
             // textBoxUsuario

@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace InventariosyVentas
 {
-    public partial class FormularioConsultas : Form
+    public partial class Formulario_usuarios : Form
     {
-        public FormularioConsultas()
+        public Formulario_usuarios()
         {
             InitializeComponent();
-        }
-
-        private void FormularioConsultas_Load(object sender, EventArgs e)
-        {
-            // Llamada directa al método estático
-            panelredondo.DibujarBordeRedondeado(panel2, 20, Color.FromArgb(178, 178, 179), 2);
-
-            panel2.BackColor = Color.White;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -30,9 +22,11 @@ namespace InventariosyVentas
             this.Close();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void Formulario_usuarios_Load(object sender, EventArgs e)
         {
+            panelredondo.DibujarBordeRedondeado(panel2, 20, Color.FromArgb(178, 178, 179), 2);
 
+            panel2.BackColor = Color.White;
         }
     }
 }

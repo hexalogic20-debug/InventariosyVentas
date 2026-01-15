@@ -76,6 +76,12 @@
     <Compile Include="FormularioFacturacion.Designer.cs">
       <DependentUpon>FormularioFacturacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioFacturacionPdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioFacturacionPdf.Designer.cs">
+      <DependentUpon>FormularioFacturacionPdf.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioGastos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,14 +124,42 @@
     <Compile Include="FormularioProveedores.Designer.cs">
       <DependentUpon>FormularioProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario_Ajustes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_Ajustes.Designer.cs">
+      <DependentUpon>Formulario_Ajustes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_Bienvenida.Designer.cs">
+      <DependentUpon>Formulario_Bienvenida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario_Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formulario_Home.Designer.cs">
       <DependentUpon>Formulario_Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario_Topes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_Topes.Designer.cs">
+      <DependentUpon>Formulario_Topes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_usuarios.Designer.cs">
+      <DependentUpon>Formulario_usuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="panelredondo.cs" />
+    <Compile Include="Producto.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarAzul.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -141,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioFacturacion.resx">
       <DependentUpon>FormularioFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioFacturacionPdf.resx">
+      <DependentUpon>FormularioFacturacionPdf.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioGastos.resx">
       <DependentUpon>FormularioGastos.cs</DependentUpon>
@@ -163,8 +200,20 @@
     <EmbeddedResource Include="FormularioProveedores.resx">
       <DependentUpon>FormularioProveedores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Ajustes.resx">
+      <DependentUpon>Formulario_Ajustes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Bienvenida.resx">
+      <DependentUpon>Formulario_Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulario_Home.resx">
       <DependentUpon>Formulario_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Topes.resx">
+      <DependentUpon>Formulario_Topes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_usuarios.resx">
+      <DependentUpon>Formulario_usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
