@@ -15,7 +15,12 @@ namespace InventariosyVentas
             new Producto { Id = 2, Nombre = "Caja de Palomitas", Valor = 10000, Stock = 20, ImagenRuta = "palomitas.png" },
             new Producto { Id = 3, Nombre = "Carrito de Juguete", Valor = 35000, Stock = 8, ImagenRuta = "carrito.png" },
             new Producto { Id = 4, Nombre = "Muñeca Clásica", Valor = 45000, Stock = 12, ImagenRuta = "muneca.png" },
-            new Producto { Id = 5, Nombre = "Rompecabezas 500 piezas", Valor = 30000, Stock = 5, ImagenRuta = "rompecabezas.png" }
+            new Producto { Id = 5, Nombre = "Rompecabezas 500 piezas", Valor = 30000, Stock = 5, ImagenRuta = "rompecabezas.png" },
+            new Producto { Id = 6, Nombre = "Peluches Oso1", Valor = 20000, Stock = 15, ImagenRuta = "oso.png" },
+            new Producto { Id = 7, Nombre = "Caja de Palomitas1", Valor = 10000, Stock = 20, ImagenRuta = "palomitas.png" },
+            new Producto { Id = 8, Nombre = "Carrito de Juguete", Valor = 35000, Stock = 8, ImagenRuta = "carrito.png" },
+            new Producto { Id = 9, Nombre = "Muñeca Clásica", Valor = 45000, Stock = 12, ImagenRuta = "muneca.png" },
+            new Producto { Id = 10, Nombre = "Rompecabezas 500 piezas", Valor = 30000, Stock = 5, ImagenRuta = "rompecabezas.png" }
         };
 
         public FormularioInventario()
@@ -50,7 +55,7 @@ namespace InventariosyVentas
             };
 
             // 🔹 Construir ruta completa a la carpeta "Imagenes Productos"
-            string ruta = Path.Combine(Application.StartupPath, "Imagenes Productos", imagenArchivo);
+            string ruta = Path.Combine(Application.StartupPath, "Imagenes", imagenArchivo);
 
             PictureBox pic = new PictureBox
             {
@@ -129,6 +134,11 @@ namespace InventariosyVentas
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void flpInventario_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

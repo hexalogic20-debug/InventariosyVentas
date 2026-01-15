@@ -43,5 +43,10 @@ D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Inv
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\InventariosyVentas.pdb
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.pdb
-D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioFacturacionPdf.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\oso.png
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\palomitas.png
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\carrito.png
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\muneca.png
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\rompecabezas.png

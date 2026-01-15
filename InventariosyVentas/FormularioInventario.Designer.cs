@@ -37,14 +37,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
             this.flpInventario = new System.Windows.Forms.FlowLayoutPanel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
-            this.flpInventario.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -120,20 +118,12 @@
             // flpInventario
             // 
             this.flpInventario.AutoScroll = true;
-            this.flpInventario.Controls.Add(this.dateTimePicker1);
             this.flpInventario.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flpInventario.Location = new System.Drawing.Point(0, 110);
             this.flpInventario.Name = "flpInventario";
             this.flpInventario.Size = new System.Drawing.Size(1008, 582);
             this.flpInventario.TabIndex = 12;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(3, 3);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 0;
+            this.flpInventario.Paint += new System.Windows.Forms.PaintEventHandler(this.flpInventario_Paint);
             // 
             // FormularioInventario
             // 
@@ -154,7 +144,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
-            this.flpInventario.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -169,6 +158,5 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBoxUsuario;
         private System.Windows.Forms.FlowLayoutPanel flpInventario;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
