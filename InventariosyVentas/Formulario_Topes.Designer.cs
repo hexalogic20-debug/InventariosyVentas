@@ -35,6 +35,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
+            this.labeltopes = new System.Windows.Forms.Label();
+            this.textBoxtopes = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -103,12 +106,42 @@
             this.pictureBoxUsuario.TabStop = false;
             this.pictureBoxUsuario.Click += new System.EventHandler(this.pictureBoxUsuario_Click);
             // 
+            // labeltopes
+            // 
+            this.labeltopes.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeltopes.Location = new System.Drawing.Point(369, 305);
+            this.labeltopes.Name = "labeltopes";
+            this.labeltopes.Size = new System.Drawing.Size(263, 23);
+            this.labeltopes.TabIndex = 21;
+            this.labeltopes.Text = "Topes De Facturacion Electronica:";
+            // 
+            // textBoxtopes
+            // 
+            this.textBoxtopes.Location = new System.Drawing.Point(615, 305);
+            this.textBoxtopes.Name = "textBoxtopes";
+            this.textBoxtopes.Size = new System.Drawing.Size(115, 20);
+            this.textBoxtopes.TabIndex = 22;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(495, 362);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 33);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "Confirmar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Formulario_Topes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1097, 649);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBoxtopes);
+            this.Controls.Add(this.labeltopes);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
@@ -125,6 +158,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -136,5 +170,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBoxUsuario;
+        private System.Windows.Forms.Label labeltopes;
+        private System.Windows.Forms.TextBox textBoxtopes;
+        private System.Windows.Forms.Button button1;
     }
 }

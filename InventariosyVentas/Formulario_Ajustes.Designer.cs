@@ -113,7 +113,7 @@
             // 
             this.lblUsuarios.AutoSize = true;
             this.lblUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuarios.Location = new System.Drawing.Point(540, 384);
+            this.lblUsuarios.Location = new System.Drawing.Point(624, 384);
             this.lblUsuarios.Name = "lblUsuarios";
             this.lblUsuarios.Size = new System.Drawing.Size(76, 18);
             this.lblUsuarios.TabIndex = 51;
@@ -123,7 +123,7 @@
             // 
             this.lblTopes.AutoSize = true;
             this.lblTopes.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopes.Location = new System.Drawing.Point(326, 384);
+            this.lblTopes.Location = new System.Drawing.Point(410, 384);
             this.lblTopes.Name = "lblTopes";
             this.lblTopes.Size = new System.Drawing.Size(55, 18);
             this.lblTopes.TabIndex = 50;
@@ -133,7 +133,7 @@
             // panel10
             // 
             this.panel10.Controls.Add(this.pictureBoxUsuarios);
-            this.panel10.Location = new System.Drawing.Point(502, 262);
+            this.panel10.Location = new System.Drawing.Point(586, 262);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(150, 117);
             this.panel10.TabIndex = 49;
@@ -153,7 +153,7 @@
             // panel11
             // 
             this.panel11.Controls.Add(this.pictureBTopes);
-            this.panel11.Location = new System.Drawing.Point(287, 263);
+            this.panel11.Location = new System.Drawing.Point(371, 263);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(153, 117);
             this.panel11.TabIndex = 48;

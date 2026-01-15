@@ -165,15 +165,15 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1008, 52);
             this.panel5.TabIndex = 22;
-           
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // panelBuscar
             // 
             this.panelBuscar.Controls.Add(this.pictureBoxBuscar);
             this.panelBuscar.Controls.Add(this.textBoxBuscar);
-            this.panelBuscar.Location = new System.Drawing.Point(733, 10);
+            this.panelBuscar.Location = new System.Drawing.Point(736, 10);
             this.panelBuscar.Name = "panelBuscar";
-            this.panelBuscar.Size = new System.Drawing.Size(219, 30);
+            this.panelBuscar.Size = new System.Drawing.Size(216, 30);
             this.panelBuscar.TabIndex = 21;
             // 
             // pictureBoxBuscar

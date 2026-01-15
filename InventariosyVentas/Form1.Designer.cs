@@ -89,7 +89,7 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(137)))), ((int)(((byte)(239)))));
+            this.btnIngresar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
             this.btnIngresar.Location = new System.Drawing.Point(316, 389);
             this.btnIngresar.Name = "btnIngresar";

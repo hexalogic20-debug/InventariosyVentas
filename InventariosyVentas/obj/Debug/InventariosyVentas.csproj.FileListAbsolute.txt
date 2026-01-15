@@ -50,3 +50,16 @@ D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Ima
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\muneca.png
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\rompecabezas.png
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\carrito.png
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\muneca.png
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\oso.png
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\palomitas.png
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\rompecabezas.png
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioFacturacionPdf.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioMensageConfirmar.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioMensageEliminar.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioMensageGeneral.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Ajustes.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Bienvenida.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Topes.resources
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_usuarios.resources
