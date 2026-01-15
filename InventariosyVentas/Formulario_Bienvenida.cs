@@ -10,28 +10,28 @@ namespace InventariosyVentas
         {
             InitializeComponent();
 
-            // Estilo continuo (no crea otro control)
+            
             progressBar1.Style = ProgressBarStyle.Continuous;
 
-            // Pintar en azul el avance del progressBar existente
+           
             progressBar1.Paint += progressBar1_Paint;
         }
 
         private void Formulario_Bienvenida_Load_1(object sender, EventArgs e)
         {
-            // Elimina cualquier otro método Load duplicado (como Formulario_Bienvenida_Load_1)
+            
             this.Opacity = 0;
             timer1.Interval = 15;
             timer1.Start();
 
-            // Configuración del ProgressBar existente
+            
             progressBar1.Minimum = 0;
             progressBar1.Maximum = 100;
             progressBar1.Value = 0;
 
-            // Conectar el Tick del timer2 al método correcto (sin crear otro control)
+           
             timer2.Interval = 50;
-            timer2.Tick -= timer2_Tick; // por si estaba conectado dos veces
+            timer2.Tick -= timer2_Tick; 
             timer2.Tick += timer2_Tick;
             timer2.Start();
         }
