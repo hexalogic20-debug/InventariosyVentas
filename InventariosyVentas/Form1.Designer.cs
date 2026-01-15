@@ -71,7 +71,7 @@
             // 
             this.lblolvidopassword.AutoSize = true;
             this.lblolvidopassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(137)))), ((int)(((byte)(239)))));
-            this.lblolvidopassword.Location = new System.Drawing.Point(284, 376);
+            this.lblolvidopassword.Location = new System.Drawing.Point(284, 386);
             this.lblolvidopassword.Name = "lblolvidopassword";
             this.lblolvidopassword.Size = new System.Drawing.Size(140, 13);
             this.lblolvidopassword.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(137)))), ((int)(((byte)(239)))));
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
-            this.btnIngresar.Location = new System.Drawing.Point(316, 407);
+            this.btnIngresar.Location = new System.Drawing.Point(316, 417);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(79, 31);
             this.btnIngresar.TabIndex = 7;
@@ -114,7 +114,7 @@
             this.pictureBoxOculo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOculo.Image")));
             this.pictureBoxOculo.Location = new System.Drawing.Point(174, 8);
             this.pictureBoxOculo.Name = "pictureBoxOculo";
-            this.pictureBoxOculo.Size = new System.Drawing.Size(37, 20);
+            this.pictureBoxOculo.Size = new System.Drawing.Size(37, 19);
             this.pictureBoxOculo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxOculo.TabIndex = 14;
             this.pictureBoxOculo.TabStop = false;
