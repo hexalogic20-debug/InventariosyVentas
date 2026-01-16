@@ -70,7 +70,7 @@
             // lblolvidopassword
             // 
             this.lblolvidopassword.AutoSize = true;
-            this.lblolvidopassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(137)))), ((int)(((byte)(239)))));
+            this.lblolvidopassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(156)))), ((int)(((byte)(241)))));
             this.lblolvidopassword.Location = new System.Drawing.Point(284, 338);
             this.lblolvidopassword.Name = "lblolvidopassword";
             this.lblolvidopassword.Size = new System.Drawing.Size(140, 13);
@@ -89,9 +89,9 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
-            this.btnIngresar.Location = new System.Drawing.Point(316, 389);
+            this.btnIngresar.Location = new System.Drawing.Point(314, 377);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(79, 31);
             this.btnIngresar.TabIndex = 7;
@@ -145,7 +145,7 @@
             this.panelUsuario.Controls.Add(this.textBoxUsuario);
             this.panelUsuario.Location = new System.Drawing.Point(247, 211);
             this.panelUsuario.Name = "panelUsuario";
-            this.panelUsuario.Size = new System.Drawing.Size(219, 30);
+            this.panelUsuario.Size = new System.Drawing.Size(219, 33);
             this.panelUsuario.TabIndex = 9;
             // 
             // textBoxUsuario
