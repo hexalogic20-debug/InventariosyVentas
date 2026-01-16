@@ -41,8 +41,6 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.labelNombre = new System.Windows.Forms.Label();
             this.labelDocumento = new System.Windows.Forms.Label();
-            this.buttonBuscar = new System.Windows.Forms.Button();
-            this.buttonMostrarTodo = new System.Windows.Forms.Button();
             this.buttonNuevo = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -168,38 +166,17 @@
             this.labelDocumento.TabIndex = 30;
             this.labelDocumento.Text = "Documento";
             // 
-            // buttonBuscar
-            // 
-            this.buttonBuscar.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonBuscar.ForeColor = System.Drawing.Color.White;
-            this.buttonBuscar.Location = new System.Drawing.Point(600, 132);
-            this.buttonBuscar.Name = "buttonBuscar";
-            this.buttonBuscar.Size = new System.Drawing.Size(102, 31);
-            this.buttonBuscar.TabIndex = 31;
-            this.buttonBuscar.Text = "Buscar";
-            this.buttonBuscar.UseVisualStyleBackColor = false;
-            // 
-            // buttonMostrarTodo
-            // 
-            this.buttonMostrarTodo.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonMostrarTodo.ForeColor = System.Drawing.Color.White;
-            this.buttonMostrarTodo.Location = new System.Drawing.Point(708, 132);
-            this.buttonMostrarTodo.Name = "buttonMostrarTodo";
-            this.buttonMostrarTodo.Size = new System.Drawing.Size(102, 31);
-            this.buttonMostrarTodo.TabIndex = 32;
-            this.buttonMostrarTodo.Text = "Mostrar Todo";
-            this.buttonMostrarTodo.UseVisualStyleBackColor = false;
-            // 
             // buttonNuevo
             // 
             this.buttonNuevo.BackColor = System.Drawing.Color.DodgerBlue;
             this.buttonNuevo.ForeColor = System.Drawing.Color.White;
-            this.buttonNuevo.Location = new System.Drawing.Point(816, 132);
+            this.buttonNuevo.Location = new System.Drawing.Point(602, 131);
             this.buttonNuevo.Name = "buttonNuevo";
             this.buttonNuevo.Size = new System.Drawing.Size(102, 31);
             this.buttonNuevo.TabIndex = 33;
             this.buttonNuevo.Text = "Nuevo +";
             this.buttonNuevo.UseVisualStyleBackColor = false;
+            this.buttonNuevo.Click += new System.EventHandler(this.buttonNuevo_Click);
             // 
             // pictureBox5
             // 
@@ -228,8 +205,6 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.buttonNuevo);
-            this.Controls.Add(this.buttonMostrarTodo);
-            this.Controls.Add(this.buttonBuscar);
             this.Controls.Add(this.labelDocumento);
             this.Controls.Add(this.labelNombre);
             this.Controls.Add(this.textBox3);
@@ -271,8 +246,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label labelNombre;
         private System.Windows.Forms.Label labelDocumento;
-        private System.Windows.Forms.Button buttonBuscar;
-        private System.Windows.Forms.Button buttonMostrarTodo;
         private System.Windows.Forms.Button buttonNuevo;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.DataGridView dataGridView1;
