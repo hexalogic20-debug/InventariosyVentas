@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -26,9 +27,7 @@ namespace InventariosyVentas
         public FormularioInventario()
         {
             InitializeComponent();
-            this.textBoxBuscar.AutoSize = false;
-            this.textBoxBuscar.Height = 20;
-
+            
         }
 
         private void FormularioInventario_Load(object sender, EventArgs e)
@@ -37,8 +36,7 @@ namespace InventariosyVentas
             panelredondo.DibujarBordeRedondeado(panel2, 20, Color.FromArgb(178, 178, 179), 2);
             panel2.BackColor = Color.White;
 
-            panelredondo.DibujarBordeRedondeado(panelBuscar, 20, Color.FromArgb(178, 178, 179), 2);
-            panelBuscar.BackColor = Color.White;
+            
 
             // Cargar productos de prueba en el FlowLayoutPanel
             flpInventario.Controls.Clear();
@@ -165,7 +163,7 @@ namespace InventariosyVentas
 
         private void pictureBoxBuscar_Click(object sender, EventArgs e)
         {
-            pictureBoxBuscar.Visible = false;
+            
         }
 
         
@@ -175,10 +173,7 @@ namespace InventariosyVentas
         private void textBoxBuscar_TextChanged(object sender, EventArgs e)
         {
 
-            if (pictureBoxBuscar.Visible == true)
-            {
-                pictureBoxBuscar.Visible = false;
-            }
+           
         
 
        
@@ -187,6 +182,48 @@ namespace InventariosyVentas
         private void panel5_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void textBox1_MouseEnter(object sender, EventArgs e)
+        {
+            this.ActiveControl = null;
+        }
+
+        private void FormularioInventario_MouseDown(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void panel5_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.ActiveControl = null;
+        }
+
+        private void flpInventario_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.ActiveControl = null;
+        }
+
+        private void panel3_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.ActiveControl = null;
+        }
+        private void panel2_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.ActiveControl = null;
+        }
+
+        private void pictureBoxAdicionar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formulario_usuarios usuarios = new Formulario_usuarios();
+            usuarios.ShowDialog();
+            this.Show();
         }
     }
 }
