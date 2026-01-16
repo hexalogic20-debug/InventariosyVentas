@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|D:\\Programas_cSharp_Personal\\InventariosyVentas\\inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|d:\\programas_csharp_personal\\inventariosyventas\\inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\formularioinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|d:\\programas_csharp_personal\\inventariosyventas\\inventariosyventas\\formularioinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|D:\\Programas_cSharp_Personal\\InventariosyVentas\\inventariosyventas\\formularioinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\formularioinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|d:\\programas_csharp_personal\\inventariosyventas\\inventariosyventas\\formularioinventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|D:\\Programas_cSharp_Personal\\InventariosyVentas\\inventariosyventas\\formularioinventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\formularioinventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -126,8 +126,7 @@
               "RelativeToolTip": "InventariosyVentas\\FormularioInventario.Designer.cs",
               "ViewState": "AgIAAJsAAAAAAAAAAAAQwKcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T06:53:26.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T06:53:26.477Z"
             },
             {
               "$type": "Document",
@@ -138,8 +137,7 @@
               "ToolTip": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioInventario.cs [Dise\u00F1o]",
               "RelativeToolTip": "InventariosyVentas\\FormularioInventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T04:25:12.918Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-01-15T04:25:12.918Z"
             },
             {
               "$type": "Document",
@@ -151,8 +149,7 @@
               "RelativeToolTip": "InventariosyVentas\\FormularioInventario.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T01:38:28.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T01:38:28.733Z"
             },
             {
               "$type": "Document",
@@ -162,7 +159,7 @@
               "RelativeDocumentMoniker": "InventariosyVentas\\Form1.cs",
               "ToolTip": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.cs",
               "RelativeToolTip": "InventariosyVentas\\Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T23:27:13.505Z",
               "EditorCaption": ""
@@ -176,8 +173,7 @@
               "ToolTip": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "InventariosyVentas\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T22:25:30.753Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-01-14T22:25:30.753Z"
             },
             {
               "$type": "Document",
@@ -189,8 +185,7 @@
               "RelativeToolTip": "InventariosyVentas\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T22:26:17.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T22:26:17.733Z"
             },
             {
               "$type": "Document",
@@ -201,8 +196,7 @@
               "ToolTip": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Bienvenida.cs [Dise\u00F1o]",
               "RelativeToolTip": "InventariosyVentas\\Formulario_Bienvenida.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T22:09:26.575Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-01-14T22:09:26.575Z"
             },
             {
               "$type": "Document",
@@ -283,8 +277,7 @@
               "RelativeToolTip": "InventariosyVentas\\Formulario_Bienvenida.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T22:20:44.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T22:20:44.879Z"
             },
             {
               "$type": "Document",
@@ -296,8 +289,7 @@
               "RelativeToolTip": "InventariosyVentas\\Formulario_Bienvenida.Designer.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAQwEEAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T22:39:10.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T22:39:10.035Z"
             },
             {
               "$type": "Document",
