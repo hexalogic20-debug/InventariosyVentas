@@ -220,10 +220,10 @@ namespace InventariosyVentas
 
         private void pictureBoxAdicionar_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Formulario_usuarios usuarios = new Formulario_usuarios();
-            usuarios.ShowDialog();
-            this.Show();
+            //this.Hide();
+            //Formulario_usuarios usuarios = new Formulario_usuarios();
+            //usuarios.ShowDialog();
+            //this.Show();
         }
     }
 }

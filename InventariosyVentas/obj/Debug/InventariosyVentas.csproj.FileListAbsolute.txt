@@ -64,3 +64,4 @@ C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\In
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Topes.resources
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_usuarios.resources
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioAgregarUsuarios.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioAgregarUsuarios.resources
