@@ -28,5 +28,13 @@ namespace InventariosyVentas
 
             panel2.BackColor = Color.White;
         }
+
+        private void buttonNuevo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioAgregarUsuarios nuevoUsuarioForm = new FormularioAgregarUsuarios();
+            nuevoUsuarioForm.ShowDialog();
+            this.Show();
+        }
     }
 }
