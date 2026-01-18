@@ -67,4 +67,7 @@ D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\Inv
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\Inventar.F1E3CB25.Up2Date
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.licenses
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.resx
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.cs
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.Designer.cs
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config

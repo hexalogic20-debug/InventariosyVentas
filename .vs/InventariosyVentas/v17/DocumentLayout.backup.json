@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|d:\\programas_csharp_personal\\inventariosyventas\\inventariosyventas\\formularioproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\formularioproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|d:\\programas_csharp_personal\\inventariosyventas\\inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|D:\\Programas_cSharp_Personal\\InventariosyVentas\\inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|InventariosyVentas||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|d:\\programas_csharp_personal\\inventariosyventas\\inventariosyventas\\formularioproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\formularioproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|D:\\Programas_cSharp_Personal\\InventariosyVentas\\inventariosyventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,6 +140,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|D:\\Programas_cSharp_Personal\\InventariosyVentas\\inventariosyventas\\formulariodevoluciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|solutionrelative:inventariosyventas\\formulariodevoluciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D64C0A-2185-4B91-9CFF-CED04A3F3106}|InventariosyVentas\\InventariosyVentas.csproj|d:\\programas_csharp_personal\\inventariosyventas\\inventariosyventas\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,11 +152,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "InventariosyVentas",
+              "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\InventariosyVentas.csproj",
+              "RelativeDocumentMoniker": "InventariosyVentas\\InventariosyVentas.csproj",
+              "ToolTip": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\InventariosyVentas.csproj",
+              "RelativeToolTip": "InventariosyVentas\\InventariosyVentas.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-18T07:54:23.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.cs",
+              "RelativeDocumentMoniker": "InventariosyVentas\\Form1.cs",
+              "ToolTip": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventariosyVentas\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T07:52:40.898Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Form1.Designer.cs",
@@ -158,11 +188,12 @@
               "RelativeToolTip": "InventariosyVentas\\Form1.Designer.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAQwHgAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T05:47:15.28Z"
+              "WhenOpened": "2026-01-18T05:47:15.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FormularioInventario.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioInventario.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioInventario.cs",
@@ -174,18 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.cs",
-              "RelativeDocumentMoniker": "InventariosyVentas\\Form1.cs",
-              "ToolTip": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InventariosyVentas\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T22:25:30.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormularioProductos.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioProductos.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioProductos.cs",
@@ -197,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Form1.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Form1.cs",
@@ -205,11 +225,12 @@
               "RelativeToolTip": "InventariosyVentas\\Form1.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAmwG4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T23:27:13.505Z"
+              "WhenOpened": "2026-01-14T23:27:13.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FormularioInventario.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioInventario.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioInventario.cs",
@@ -220,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FormularioGastos.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioGastos.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioGastos.cs",
@@ -231,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FormularioMensageGeneral.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioMensageGeneral.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioMensageGeneral.cs",
@@ -242,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FormularioProveedores.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioProveedores.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioProveedores.cs",
@@ -253,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FormularioFacturacionPdf.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioFacturacionPdf.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioFacturacionPdf.cs",
@@ -264,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FormularioDashboard.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioDashboard.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioDashboard.cs",
@@ -275,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FormularioMensageConfirmar.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioMensageConfirmar.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioMensageConfirmar.cs",
@@ -286,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FormularioConsultas.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioConsultas.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioConsultas.cs",
@@ -297,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "FormularioDevoluciones.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioDevoluciones.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioDevoluciones.cs",
@@ -308,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FormularioFacturacion.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioFacturacion.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioFacturacion.cs",
@@ -319,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FormularioAgregarUsuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioAgregarUsuarios.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioAgregarUsuarios.cs",
@@ -330,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Formulario_Topes.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Topes.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Topes.cs",
@@ -341,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Formulario_Home.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Home.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Home.cs",
@@ -352,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Formulario_Bienvenida.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Bienvenida.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Bienvenida.cs",
@@ -363,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Formulario_usuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_usuarios.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_usuarios.cs",
@@ -374,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Formulario_Ajustes.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Ajustes.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Ajustes.cs",
@@ -385,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "FormularioInventario.Designer.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioInventario.Designer.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioInventario.Designer.cs",
@@ -397,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Program.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Program.cs",
@@ -409,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ProgressBarAzul.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\ProgressBarAzul.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\ProgressBarAzul.cs",
@@ -421,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Producto.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Producto.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Producto.cs",
@@ -433,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FormularioConsultas.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioConsultas.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioConsultas.cs",
@@ -445,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ProgressBarAzul.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\ProgressBarAzul.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\ProgressBarAzul.cs",
@@ -456,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Formulario_Bienvenida.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Bienvenida.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Bienvenida.cs",
@@ -468,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Formulario_Bienvenida.Designer.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Bienvenida.Designer.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Bienvenida.Designer.cs",
@@ -480,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FormularioMensageConfirmar.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioMensageConfirmar.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioMensageConfirmar.cs",
@@ -492,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Formulario_Home.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Home.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Home.cs",
@@ -504,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Formulario_Topes.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Topes.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Topes.cs",
@@ -516,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Formulario_Ajustes.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\Formulario_Ajustes.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\Formulario_Ajustes.cs",
@@ -528,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "FormularioDevoluciones.cs",
               "DocumentMoniker": "D:\\Programas_cSharp_Personal\\InventariosyVentas\\InventariosyVentas\\FormularioDevoluciones.cs",
               "RelativeDocumentMoniker": "InventariosyVentas\\FormularioDevoluciones.cs",

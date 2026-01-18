@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IconoPrincioal.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Klik.Windows.Forms.EntryLib.V2.2005">
       <HintPath>..\..\..\Librerias\Klik.Windows.Forms.EntryLib.V2.2005.dll</HintPath>
@@ -51,9 +54,11 @@
   <ItemGroup>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="FormularioAgregarUsuarios.cs">
       <SubType>Form</SubType>
@@ -172,6 +177,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioAgregarUsuarios.resx">
       <DependentUpon>FormularioAgregarUsuarios.cs</DependentUpon>
@@ -251,6 +257,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="IconoPrincioal.ico" />
     <Content Include="Imagenes\carrito.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
