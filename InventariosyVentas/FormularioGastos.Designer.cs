@@ -116,6 +116,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBoxUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormularioGastos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormularioGastos";

@@ -37,8 +37,8 @@
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBoxFacturacionElec = new System.Windows.Forms.CheckBox();
             this.checkBoxFacturacionInterna = new System.Windows.Forms.CheckBox();
+            this.checkBoxFacturacionElec = new System.Windows.Forms.CheckBox();
             this.buttonGenerar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -137,6 +137,16 @@
             this.groupBox1.Text = "Tipo Factura";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // checkBoxFacturacionInterna
+            // 
+            this.checkBoxFacturacionInterna.AutoSize = true;
+            this.checkBoxFacturacionInterna.Location = new System.Drawing.Point(168, 48);
+            this.checkBoxFacturacionInterna.Name = "checkBoxFacturacionInterna";
+            this.checkBoxFacturacionInterna.Size = new System.Drawing.Size(118, 17);
+            this.checkBoxFacturacionInterna.TabIndex = 1;
+            this.checkBoxFacturacionInterna.Text = "Facturacion Interna";
+            this.checkBoxFacturacionInterna.UseVisualStyleBackColor = true;
+            // 
             // checkBoxFacturacionElec
             // 
             this.checkBoxFacturacionElec.AutoSize = true;
@@ -147,16 +157,6 @@
             this.checkBoxFacturacionElec.Text = "Facturacion Electronica";
             this.checkBoxFacturacionElec.UseVisualStyleBackColor = true;
             this.checkBoxFacturacionElec.CheckedChanged += new System.EventHandler(this.checkBoxFacturacionElec_CheckedChanged);
-            // 
-            // checkBoxFacturacionInterna
-            // 
-            this.checkBoxFacturacionInterna.AutoSize = true;
-            this.checkBoxFacturacionInterna.Location = new System.Drawing.Point(168, 48);
-            this.checkBoxFacturacionInterna.Name = "checkBoxFacturacionInterna";
-            this.checkBoxFacturacionInterna.Size = new System.Drawing.Size(118, 17);
-            this.checkBoxFacturacionInterna.TabIndex = 1;
-            this.checkBoxFacturacionInterna.Text = "Facturacion Interna";
-            this.checkBoxFacturacionInterna.UseVisualStyleBackColor = true;
             // 
             // buttonGenerar
             // 
@@ -279,6 +279,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBoxUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormularioFacturacionPdf";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormularioFacturacionPdf";

@@ -21,20 +21,19 @@ namespace InventariosyVentas
         public Form1()
         {
             InitializeComponent();
-            textBoxPassword.UseSystemPasswordChar = true;
-            this.textBoxUsuario.AutoSize = false;
-            this.textBoxUsuario.Height = 20;
 
-            this.textBoxPassword.AutoSize = false;
-            this.textBoxPassword.Height = 20;
+            //textBox1.Multiline = true;
+            //textBox1.Size = new Size(200, 30);
+            //textBox1.UseSystemPasswordChar = true;
 
-           
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DibujarBordeRedondeado(panelPassword, 20, Color.FromArgb(178, 178, 179), 2);
-            DibujarBordeRedondeado(panelUsuario, 20, Color.FromArgb(178, 178, 179), 2);
+          
+
+          //  DibujarBordeRedondeado(panelPassword, 20, Color.FromArgb(178, 178, 179), 2);
+           // DibujarBordeRedondeado(panelUsuario, 20, Color.FromArgb(178, 178, 179), 2);
 
         }
 
@@ -60,14 +59,40 @@ namespace InventariosyVentas
         {
             pictureBoxOculo.Visible = false;
             pictureBoxVisible.Visible = true;
-            if (textBoxPassword != null) textBoxPassword.UseSystemPasswordChar = false;
+         //   if (textBoxPassword != null) textBoxPassword.UseSystemPasswordChar = false;
         }
 
         private void pictureBoxVisible_Click(object sender, EventArgs e)
         {
             pictureBoxVisible.Visible = false;
             pictureBoxOculo.Visible = true;
-            if (textBoxPassword != null) textBoxPassword.UseSystemPasswordChar = true; // <-- ocultar
+         //  if (textBoxPassword != null) textBoxPassword.UseSystemPasswordChar = true;
+           
+          
+             // <-- ocultar
+        }
+
+        
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBoxOculo_Click_1(object sender, EventArgs e)
+        {
+           textBox1.Text = textBoxPassword.Text;
+            textBox1.Visible = true;
+            pictureBoxVisible.Visible = Visible;
+            pictureBoxOculo.Visible = false;
+        }
+
+        private void pictureBoxVisible_Click_1(object sender, EventArgs e)
+        {
+            textBoxPassword.Text = textBox1.Text;
+            textBox1.Visible = false;
+            pictureBoxVisible.Visible = false;
+            pictureBoxOculo.Visible = true;
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -90,11 +115,6 @@ namespace InventariosyVentas
             {
                 MessageBox.Show("Usuario o contraseña incorrectos", "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
         }
     }
 }

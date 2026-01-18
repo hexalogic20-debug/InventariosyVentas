@@ -48,7 +48,6 @@ D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Ima
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\palomitas.png
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\carrito.png
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\muneca.png
-D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\rompecabezas.png
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\carrito.png
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Imagenes\muneca.png
@@ -64,3 +63,11 @@ C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\In
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_Topes.resources
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.Formulario_usuarios.resources
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioAgregarUsuarios.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.FormularioAgregarUsuarios.resources
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\Inventar.F1E3CB25.Up2Date
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.licenses
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.resx
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.cs
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.Designer.cs
+D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config

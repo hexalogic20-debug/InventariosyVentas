@@ -32,7 +32,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IconoPrincioal.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Klik.Windows.Forms.EntryLib.V2.2005">
+      <HintPath>..\..\..\Librerias\Klik.Windows.Forms.EntryLib.V2.2005.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,9 +54,11 @@
   <ItemGroup>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="FormularioAgregarUsuarios.cs">
       <SubType>Form</SubType>
@@ -169,6 +177,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioAgregarUsuarios.resx">
       <DependentUpon>FormularioAgregarUsuarios.cs</DependentUpon>
@@ -224,6 +233,7 @@
     <EmbeddedResource Include="Formulario_usuarios.resx">
       <DependentUpon>Formulario_usuarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -247,6 +257,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="IconoPrincioal.ico" />
     <Content Include="Imagenes\carrito.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
