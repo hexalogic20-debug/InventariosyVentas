@@ -72,27 +72,7 @@ namespace InventariosyVentas
              // <-- ocultar
         }
 
-        private void btnIngresar_Click(object sender, EventArgs e)
-        {
-            if (textBoxUsuario.Text == usuarioAdmin && textBoxUsuario.Text == passwordAdmin)
-            {
-                Formulario_Home home = new Formulario_Home();
-                home.rol = "Admin";
-                home.ShowDialog();
-                this.Hide();
-            }
-            else if (textBoxUsuario.Text == usuarioUser && textBoxPassword.Text == passwordUser)
-            {
-                Formulario_Home home = new Formulario_Home();
-                home.rol = "User";
-                home.ShowDialog();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -113,6 +93,28 @@ namespace InventariosyVentas
             textBox1.Visible = false;
             pictureBoxVisible.Visible = false;
             pictureBoxOculo.Visible = true;
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            if (textBoxUsuario.Text == usuarioAdmin && textBoxUsuario.Text == passwordAdmin)
+            {
+                Formulario_Home home = new Formulario_Home();
+                home.rol = "Admin";
+                home.ShowDialog();
+                this.Hide();
+            }
+            else if (textBoxUsuario.Text == usuarioUser && textBoxPassword.Text == passwordUser)
+            {
+                Formulario_Home home = new Formulario_Home();
+                home.rol = "User";
+                home.ShowDialog();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos", "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

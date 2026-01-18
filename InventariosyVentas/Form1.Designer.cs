@@ -118,6 +118,7 @@
             this.btnIngresar.TextStyle.Text = "Ingresar";
             this.btnIngresar.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnIngresar.VisualStyle = Klik.Windows.Forms.v1.EntryLib.ButtonVisualStyles.Custom;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // textBoxUsuario
             // 
