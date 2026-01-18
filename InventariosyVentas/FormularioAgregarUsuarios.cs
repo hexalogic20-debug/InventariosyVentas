@@ -33,5 +33,10 @@ namespace InventariosyVentas
         {
 
         }
+
+        private void textBoxNombreUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -36,5 +36,13 @@ namespace InventariosyVentas
             nuevoUsuarioForm.ShowDialog();
             this.Show();
         }
+
+        private void buttonNuevo_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioAgregarUsuarios nuevoUsuarioForm = new FormularioAgregarUsuarios();
+            nuevoUsuarioForm.ShowDialog();
+            this.Show();
+        }
     }
 }

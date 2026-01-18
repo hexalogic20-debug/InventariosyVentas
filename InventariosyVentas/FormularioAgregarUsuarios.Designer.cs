@@ -41,17 +41,23 @@
             this.labelCorreoUsuario = new System.Windows.Forms.Label();
             this.labelTelefonoUsuario = new System.Windows.Forms.Label();
             this.labelContrasenaUsuario = new System.Windows.Forms.Label();
-            this.textBoxNombreUsuario = new System.Windows.Forms.TextBox();
-            this.textBoxCedulaUsuario = new System.Windows.Forms.TextBox();
-            this.textBoxCorreoUsuario = new System.Windows.Forms.TextBox();
-            this.textBoxCtelefonoUsuario = new System.Windows.Forms.TextBox();
-            this.textBoxContrasenaUsuario = new System.Windows.Forms.TextBox();
-            this.buttonAgregarUsuarios = new System.Windows.Forms.Button();
+            this.textBoxNombreUsuario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.textBoxCedulaUsuario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.textBoxCorreoUsuario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.textBoxTelefonoUsuario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.textBoxContrasenaUsuario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.buttonAgregarUsuarios = new Klik.Windows.Forms.v1.EntryLib.ELButton();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxNombreUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxCedulaUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxCorreoUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxTelefonoUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxContrasenaUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonAgregarUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -125,7 +131,7 @@
             // 
             this.labelNombreUsuario.AutoSize = true;
             this.labelNombreUsuario.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNombreUsuario.Location = new System.Drawing.Point(457, 198);
+            this.labelNombreUsuario.Location = new System.Drawing.Point(433, 186);
             this.labelNombreUsuario.Name = "labelNombreUsuario";
             this.labelNombreUsuario.Size = new System.Drawing.Size(59, 16);
             this.labelNombreUsuario.TabIndex = 52;
@@ -135,7 +141,7 @@
             // 
             this.labelCedulaUsuario.AutoSize = true;
             this.labelCedulaUsuario.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCedulaUsuario.Location = new System.Drawing.Point(456, 256);
+            this.labelCedulaUsuario.Location = new System.Drawing.Point(432, 244);
             this.labelCedulaUsuario.Name = "labelCedulaUsuario";
             this.labelCedulaUsuario.Size = new System.Drawing.Size(50, 16);
             this.labelCedulaUsuario.TabIndex = 53;
@@ -145,7 +151,7 @@
             // 
             this.labelCorreoUsuario.AutoSize = true;
             this.labelCorreoUsuario.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCorreoUsuario.Location = new System.Drawing.Point(454, 312);
+            this.labelCorreoUsuario.Location = new System.Drawing.Point(430, 300);
             this.labelCorreoUsuario.Name = "labelCorreoUsuario";
             this.labelCorreoUsuario.Size = new System.Drawing.Size(51, 16);
             this.labelCorreoUsuario.TabIndex = 54;
@@ -155,7 +161,7 @@
             // 
             this.labelTelefonoUsuario.AutoSize = true;
             this.labelTelefonoUsuario.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTelefonoUsuario.Location = new System.Drawing.Point(455, 366);
+            this.labelTelefonoUsuario.Location = new System.Drawing.Point(431, 355);
             this.labelTelefonoUsuario.Name = "labelTelefonoUsuario";
             this.labelTelefonoUsuario.Size = new System.Drawing.Size(61, 16);
             this.labelTelefonoUsuario.TabIndex = 55;
@@ -166,7 +172,7 @@
             // 
             this.labelContrasenaUsuario.AutoSize = true;
             this.labelContrasenaUsuario.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelContrasenaUsuario.Location = new System.Drawing.Point(452, 420);
+            this.labelContrasenaUsuario.Location = new System.Drawing.Point(428, 410);
             this.labelContrasenaUsuario.Name = "labelContrasenaUsuario";
             this.labelContrasenaUsuario.Size = new System.Drawing.Size(76, 16);
             this.labelContrasenaUsuario.TabIndex = 56;
@@ -174,49 +180,152 @@
             // 
             // textBoxNombreUsuario
             // 
-            this.textBoxNombreUsuario.Location = new System.Drawing.Point(460, 217);
+            this.textBoxNombreUsuario.AutoSize = false;
+            this.textBoxNombreUsuario.CaptionStyle.CaptionSize = 0;
+            this.textBoxNombreUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.textBoxNombreUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxNombreUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxNombreUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.textBoxNombreUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxNombreUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.textBoxNombreUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxNombreUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.textBoxNombreUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxNombreUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNombreUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxNombreUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxNombreUsuario.Location = new System.Drawing.Point(431, 203);
             this.textBoxNombreUsuario.Name = "textBoxNombreUsuario";
-            this.textBoxNombreUsuario.Size = new System.Drawing.Size(156, 20);
-            this.textBoxNombreUsuario.TabIndex = 57;
+            this.textBoxNombreUsuario.Size = new System.Drawing.Size(219, 38);
+            this.textBoxNombreUsuario.TabIndex = 452;
+            this.textBoxNombreUsuario.ValidationStyle.PasswordChar = '\0';
+            this.textBoxNombreUsuario.Value = "";
+            this.textBoxNombreUsuario.Click += new System.EventHandler(this.textBoxNombreUsuario_Click);
             // 
             // textBoxCedulaUsuario
             // 
-            this.textBoxCedulaUsuario.Location = new System.Drawing.Point(459, 278);
+            this.textBoxCedulaUsuario.AutoSize = false;
+            this.textBoxCedulaUsuario.CaptionStyle.CaptionSize = 0;
+            this.textBoxCedulaUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.textBoxCedulaUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxCedulaUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxCedulaUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.textBoxCedulaUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxCedulaUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.textBoxCedulaUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxCedulaUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.textBoxCedulaUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxCedulaUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCedulaUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxCedulaUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxCedulaUsuario.Location = new System.Drawing.Point(430, 259);
             this.textBoxCedulaUsuario.Name = "textBoxCedulaUsuario";
-            this.textBoxCedulaUsuario.Size = new System.Drawing.Size(157, 20);
-            this.textBoxCedulaUsuario.TabIndex = 58;
+            this.textBoxCedulaUsuario.Size = new System.Drawing.Size(219, 38);
+            this.textBoxCedulaUsuario.TabIndex = 453;
+            this.textBoxCedulaUsuario.ValidationStyle.PasswordChar = '\0';
+            this.textBoxCedulaUsuario.Value = "";
             // 
             // textBoxCorreoUsuario
             // 
-            this.textBoxCorreoUsuario.Location = new System.Drawing.Point(459, 334);
+            this.textBoxCorreoUsuario.AutoSize = false;
+            this.textBoxCorreoUsuario.CaptionStyle.CaptionSize = 0;
+            this.textBoxCorreoUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.textBoxCorreoUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxCorreoUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxCorreoUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.textBoxCorreoUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxCorreoUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.textBoxCorreoUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxCorreoUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.textBoxCorreoUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxCorreoUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCorreoUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxCorreoUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxCorreoUsuario.Location = new System.Drawing.Point(432, 315);
             this.textBoxCorreoUsuario.Name = "textBoxCorreoUsuario";
-            this.textBoxCorreoUsuario.Size = new System.Drawing.Size(156, 20);
-            this.textBoxCorreoUsuario.TabIndex = 59;
+            this.textBoxCorreoUsuario.Size = new System.Drawing.Size(219, 38);
+            this.textBoxCorreoUsuario.TabIndex = 454;
+            this.textBoxCorreoUsuario.ValidationStyle.PasswordChar = '\0';
+            this.textBoxCorreoUsuario.Value = "";
             // 
-            // textBoxCtelefonoUsuario
+            // textBoxTelefonoUsuario
             // 
-            this.textBoxCtelefonoUsuario.Location = new System.Drawing.Point(458, 387);
-            this.textBoxCtelefonoUsuario.Name = "textBoxCtelefonoUsuario";
-            this.textBoxCtelefonoUsuario.Size = new System.Drawing.Size(156, 20);
-            this.textBoxCtelefonoUsuario.TabIndex = 60;
+            this.textBoxTelefonoUsuario.AutoSize = false;
+            this.textBoxTelefonoUsuario.CaptionStyle.CaptionSize = 0;
+            this.textBoxTelefonoUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.textBoxTelefonoUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxTelefonoUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxTelefonoUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.textBoxTelefonoUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxTelefonoUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.textBoxTelefonoUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxTelefonoUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.textBoxTelefonoUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxTelefonoUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTelefonoUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxTelefonoUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxTelefonoUsuario.Location = new System.Drawing.Point(433, 370);
+            this.textBoxTelefonoUsuario.Name = "textBoxTelefonoUsuario";
+            this.textBoxTelefonoUsuario.Size = new System.Drawing.Size(219, 38);
+            this.textBoxTelefonoUsuario.TabIndex = 455;
+            this.textBoxTelefonoUsuario.ValidationStyle.PasswordChar = '\0';
+            this.textBoxTelefonoUsuario.Value = "";
             // 
             // textBoxContrasenaUsuario
             // 
-            this.textBoxContrasenaUsuario.Location = new System.Drawing.Point(458, 446);
+            this.textBoxContrasenaUsuario.AutoSize = false;
+            this.textBoxContrasenaUsuario.CaptionStyle.CaptionSize = 0;
+            this.textBoxContrasenaUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.textBoxContrasenaUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxContrasenaUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxContrasenaUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.textBoxContrasenaUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxContrasenaUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.textBoxContrasenaUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxContrasenaUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.textBoxContrasenaUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxContrasenaUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxContrasenaUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxContrasenaUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxContrasenaUsuario.Location = new System.Drawing.Point(432, 429);
             this.textBoxContrasenaUsuario.Name = "textBoxContrasenaUsuario";
-            this.textBoxContrasenaUsuario.Size = new System.Drawing.Size(156, 20);
-            this.textBoxContrasenaUsuario.TabIndex = 61;
+            this.textBoxContrasenaUsuario.Size = new System.Drawing.Size(219, 38);
+            this.textBoxContrasenaUsuario.TabIndex = 456;
+            this.textBoxContrasenaUsuario.ValidationStyle.PasswordChar = '\0';
+            this.textBoxContrasenaUsuario.Value = "";
             // 
             // buttonAgregarUsuarios
             // 
-            this.buttonAgregarUsuarios.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAgregarUsuarios.ForeColor = System.Drawing.Color.White;
-            this.buttonAgregarUsuarios.Location = new System.Drawing.Point(460, 502);
+            this.buttonAgregarUsuarios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonAgregarUsuarios.BackgroundStyle.GradientAngle = 0F;
+            this.buttonAgregarUsuarios.BackgroundStyle.GradientEndColor = System.Drawing.Color.DodgerBlue;
+            this.buttonAgregarUsuarios.BackgroundStyle.GradientStartColor = System.Drawing.Color.DodgerBlue;
+            this.buttonAgregarUsuarios.BackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.buttonAgregarUsuarios.BackgroundStyle.SolidColor = System.Drawing.Color.DodgerBlue;
+            this.buttonAgregarUsuarios.BorderStyle.SolidColor = System.Drawing.Color.Teal;
+            this.buttonAgregarUsuarios.Cursor = System.Windows.Forms.Cursors.Default;
+            this.buttonAgregarUsuarios.DropDownArrowColor = System.Drawing.Color.White;
+            this.buttonAgregarUsuarios.EnableThemes = false;
+            this.buttonAgregarUsuarios.FlashStyle.GradientEndColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonAgregarUsuarios.FlashStyle.GradientStartColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonAgregarUsuarios.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.buttonAgregarUsuarios.FlashStyle.SolidColor = System.Drawing.Color.OrangeRed;
+            this.buttonAgregarUsuarios.ForegroundImageStyle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAgregarUsuarios.Location = new System.Drawing.Point(473, 495);
             this.buttonAgregarUsuarios.Name = "buttonAgregarUsuarios";
-            this.buttonAgregarUsuarios.Size = new System.Drawing.Size(134, 35);
-            this.buttonAgregarUsuarios.TabIndex = 62;
-            this.buttonAgregarUsuarios.Text = "button1";
-            this.buttonAgregarUsuarios.UseVisualStyleBackColor = false;
+            this.buttonAgregarUsuarios.Size = new System.Drawing.Size(137, 33);
+            this.buttonAgregarUsuarios.StateStyles.HoverStyle.BackgroundGradientEndColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonAgregarUsuarios.StateStyles.HoverStyle.BackgroundGradientStartColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonAgregarUsuarios.StateStyles.HoverStyle.BackgroundSolidColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonAgregarUsuarios.StateStyles.HoverStyle.BorderBorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.buttonAgregarUsuarios.StateStyles.HoverStyle.BorderSolidColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonAgregarUsuarios.TabIndex = 458;
+            this.buttonAgregarUsuarios.TextStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.buttonAgregarUsuarios.TextStyle.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAgregarUsuarios.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.buttonAgregarUsuarios.TextStyle.Text = "Agregar";
+            this.buttonAgregarUsuarios.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.buttonAgregarUsuarios.VisualStyle = Klik.Windows.Forms.v1.EntryLib.ButtonVisualStyles.Custom;
             // 
             // FormularioAgregarUsuarios
             // 
@@ -226,7 +335,7 @@
             this.ClientSize = new System.Drawing.Size(1100, 583);
             this.Controls.Add(this.buttonAgregarUsuarios);
             this.Controls.Add(this.textBoxContrasenaUsuario);
-            this.Controls.Add(this.textBoxCtelefonoUsuario);
+            this.Controls.Add(this.textBoxTelefonoUsuario);
             this.Controls.Add(this.textBoxCorreoUsuario);
             this.Controls.Add(this.textBoxCedulaUsuario);
             this.Controls.Add(this.textBoxNombreUsuario);
@@ -252,6 +361,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxNombreUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxCedulaUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxCorreoUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxTelefonoUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxContrasenaUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonAgregarUsuarios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,11 +386,11 @@
         private System.Windows.Forms.Label labelCorreoUsuario;
         private System.Windows.Forms.Label labelTelefonoUsuario;
         private System.Windows.Forms.Label labelContrasenaUsuario;
-        private System.Windows.Forms.TextBox textBoxNombreUsuario;
-        private System.Windows.Forms.TextBox textBoxCedulaUsuario;
-        private System.Windows.Forms.TextBox textBoxCorreoUsuario;
-        private System.Windows.Forms.TextBox textBoxCtelefonoUsuario;
-        private System.Windows.Forms.TextBox textBoxContrasenaUsuario;
-        private System.Windows.Forms.Button buttonAgregarUsuarios;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox textBoxNombreUsuario;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox textBoxCedulaUsuario;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox textBoxCorreoUsuario;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox textBoxTelefonoUsuario;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox textBoxContrasenaUsuario;
+        internal Klik.Windows.Forms.v1.EntryLib.ELButton buttonAgregarUsuarios;
     }
 }

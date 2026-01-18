@@ -36,13 +36,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
             this.labeltopes = new System.Windows.Forms.Label();
-            this.textBoxtopes = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AgregarTopes = new Klik.Windows.Forms.v1.EntryLib.ELButton();
+            this.textBoxtopes = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AgregarTopes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxtopes)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -115,23 +117,67 @@
             this.labeltopes.TabIndex = 21;
             this.labeltopes.Text = "Topes De Facturacion Electronica:";
             // 
+            // AgregarTopes
+            // 
+            this.AgregarTopes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AgregarTopes.BackgroundStyle.GradientAngle = 0F;
+            this.AgregarTopes.BackgroundStyle.GradientEndColor = System.Drawing.Color.DodgerBlue;
+            this.AgregarTopes.BackgroundStyle.GradientStartColor = System.Drawing.Color.DodgerBlue;
+            this.AgregarTopes.BackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.AgregarTopes.BackgroundStyle.SolidColor = System.Drawing.Color.DodgerBlue;
+            this.AgregarTopes.BorderStyle.SolidColor = System.Drawing.Color.Teal;
+            this.AgregarTopes.Cursor = System.Windows.Forms.Cursors.Default;
+            this.AgregarTopes.DropDownArrowColor = System.Drawing.Color.White;
+            this.AgregarTopes.EnableThemes = false;
+            this.AgregarTopes.FlashStyle.GradientEndColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.AgregarTopes.FlashStyle.GradientStartColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.AgregarTopes.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.AgregarTopes.FlashStyle.SolidColor = System.Drawing.Color.OrangeRed;
+            this.AgregarTopes.ForegroundImageStyle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AgregarTopes.Location = new System.Drawing.Point(495, 371);
+            this.AgregarTopes.Name = "AgregarTopes";
+            this.AgregarTopes.Size = new System.Drawing.Size(137, 33);
+            this.AgregarTopes.StateStyles.HoverStyle.BackgroundGradientEndColor = System.Drawing.Color.LightSteelBlue;
+            this.AgregarTopes.StateStyles.HoverStyle.BackgroundGradientStartColor = System.Drawing.Color.LightSteelBlue;
+            this.AgregarTopes.StateStyles.HoverStyle.BackgroundSolidColor = System.Drawing.Color.LightSteelBlue;
+            this.AgregarTopes.StateStyles.HoverStyle.BorderBorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.AgregarTopes.StateStyles.HoverStyle.BorderSolidColor = System.Drawing.Color.LightSteelBlue;
+            this.AgregarTopes.TabIndex = 28;
+            this.AgregarTopes.TextStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.AgregarTopes.TextStyle.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgregarTopes.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.AgregarTopes.TextStyle.Text = "Agregar";
+            this.AgregarTopes.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.AgregarTopes.VisualStyle = Klik.Windows.Forms.v1.EntryLib.ButtonVisualStyles.Custom;
+            // 
             // textBoxtopes
             // 
-            this.textBoxtopes.Location = new System.Drawing.Point(615, 305);
+            this.textBoxtopes.AutoSize = false;
+            this.textBoxtopes.CaptionStyle.CaptionSize = 0;
+            this.textBoxtopes.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.textBoxtopes.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxtopes.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxtopes.CaptionStyle.StateStyles.DisabledStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxtopes.CaptionStyle.StateStyles.FocusStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxtopes.CaptionStyle.StateStyles.HoverStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxtopes.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.textBoxtopes.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxtopes.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.textBoxtopes.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxtopes.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.textBoxtopes.EditBoxStyle.FlashBackColor = System.Drawing.Color.DodgerBlue;
+            this.textBoxtopes.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxtopes.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxtopes.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxtopes.EditBoxStyle.StateStyles.DisabledStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxtopes.EditBoxStyle.StateStyles.FocusStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxtopes.EditBoxStyle.StateStyles.HoverStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxtopes.Location = new System.Drawing.Point(626, 293);
             this.textBoxtopes.Name = "textBoxtopes";
-            this.textBoxtopes.Size = new System.Drawing.Size(115, 20);
-            this.textBoxtopes.TabIndex = 22;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(495, 362);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 33);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Confirmar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.textBoxtopes.Size = new System.Drawing.Size(219, 38);
+            this.textBoxtopes.TabIndex = 452;
+            this.textBoxtopes.ValidationStyle.PasswordChar = '\0';
+            this.textBoxtopes.Value = "";
             // 
             // Formulario_Topes
             // 
@@ -139,8 +185,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1097, 649);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBoxtopes);
+            this.Controls.Add(this.AgregarTopes);
             this.Controls.Add(this.labeltopes);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox4);
@@ -158,8 +204,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AgregarTopes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxtopes)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -172,7 +219,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBoxUsuario;
         private System.Windows.Forms.Label labeltopes;
-        private System.Windows.Forms.TextBox textBoxtopes;
-        private System.Windows.Forms.Button button1;
+        internal Klik.Windows.Forms.v1.EntryLib.ELButton AgregarTopes;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox textBoxtopes;
     }
 }

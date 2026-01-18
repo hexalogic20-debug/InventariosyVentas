@@ -116,6 +116,11 @@ namespace InventariosyVentas
                 MessageBox.Show("Usuario o contraseña incorrectos", "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void textBoxUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
     

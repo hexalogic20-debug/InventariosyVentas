@@ -72,3 +72,7 @@ D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\For
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.Designer.cs
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config
 C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.licenses
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.resx
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.cs
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.Designer.cs
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\Inventar.F1E3CB25.Up2Date

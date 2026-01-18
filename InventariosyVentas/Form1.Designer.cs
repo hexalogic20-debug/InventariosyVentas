@@ -91,10 +91,10 @@
             // 
             this.btnIngresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnIngresar.BackgroundStyle.GradientAngle = 0F;
-            this.btnIngresar.BackgroundStyle.GradientEndColor = System.Drawing.Color.OrangeRed;
-            this.btnIngresar.BackgroundStyle.GradientStartColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnIngresar.BackgroundStyle.GradientEndColor = System.Drawing.Color.DodgerBlue;
+            this.btnIngresar.BackgroundStyle.GradientStartColor = System.Drawing.Color.DodgerBlue;
             this.btnIngresar.BackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
-            this.btnIngresar.BackgroundStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.btnIngresar.BackgroundStyle.SolidColor = System.Drawing.Color.DodgerBlue;
             this.btnIngresar.BorderStyle.SolidColor = System.Drawing.Color.Teal;
             this.btnIngresar.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnIngresar.DropDownArrowColor = System.Drawing.Color.White;
@@ -104,13 +104,14 @@
             this.btnIngresar.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.btnIngresar.FlashStyle.SolidColor = System.Drawing.Color.OrangeRed;
             this.btnIngresar.ForegroundImageStyle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresar.Location = new System.Drawing.Point(286, 366);
+            this.btnIngresar.Location = new System.Drawing.Point(287, 378);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(137, 33);
-            this.btnIngresar.StateStyles.HoverStyle.BackgroundGradientEndColor = System.Drawing.Color.YellowGreen;
-            this.btnIngresar.StateStyles.HoverStyle.BackgroundGradientStartColor = System.Drawing.Color.YellowGreen;
-            this.btnIngresar.StateStyles.HoverStyle.BackgroundSolidColor = System.Drawing.Color.YellowGreen;
-            this.btnIngresar.StateStyles.HoverStyle.BorderSolidColor = System.Drawing.Color.YellowGreen;
+            this.btnIngresar.StateStyles.HoverStyle.BackgroundGradientEndColor = System.Drawing.Color.LightSteelBlue;
+            this.btnIngresar.StateStyles.HoverStyle.BackgroundGradientStartColor = System.Drawing.Color.LightSteelBlue;
+            this.btnIngresar.StateStyles.HoverStyle.BackgroundSolidColor = System.Drawing.Color.LightSteelBlue;
+            this.btnIngresar.StateStyles.HoverStyle.BorderBorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.btnIngresar.StateStyles.HoverStyle.BorderSolidColor = System.Drawing.Color.LightSteelBlue;
             this.btnIngresar.TabIndex = 27;
             this.btnIngresar.TextStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnIngresar.TextStyle.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -127,21 +128,28 @@
             this.textBoxUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.textBoxUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.textBoxUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxUsuario.CaptionStyle.StateStyles.DisabledStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxUsuario.CaptionStyle.StateStyles.FocusStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxUsuario.CaptionStyle.StateStyles.HoverStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.textBoxUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
             this.textBoxUsuario.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBoxUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
             this.textBoxUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
             this.textBoxUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
-            this.textBoxUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.DodgerBlue;
             this.textBoxUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBoxUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxUsuario.EditBoxStyle.StateStyles.DisabledStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxUsuario.EditBoxStyle.StateStyles.FocusStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBoxUsuario.EditBoxStyle.StateStyles.HoverStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.textBoxUsuario.Location = new System.Drawing.Point(241, 211);
             this.textBoxUsuario.Name = "textBoxUsuario";
             this.textBoxUsuario.Size = new System.Drawing.Size(219, 38);
             this.textBoxUsuario.TabIndex = 451;
             this.textBoxUsuario.ValidationStyle.PasswordChar = '\0';
             this.textBoxUsuario.Value = "";
+            this.textBoxUsuario.Click += new System.EventHandler(this.textBoxUsuario_Click);
             // 
             // textBoxPassword
             // 
@@ -157,6 +165,7 @@
             this.textBoxPassword.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBoxPassword.EditBoxStyle.BackColor = System.Drawing.Color.White;
             this.textBoxPassword.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxPassword.EditBoxStyle.FlashBackColor = System.Drawing.Color.DodgerBlue;
             this.textBoxPassword.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPassword.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBoxPassword.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;

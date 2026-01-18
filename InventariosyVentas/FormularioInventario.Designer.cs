@@ -40,8 +40,8 @@
             this.pictureBoxAdicionar = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.BuscadorInventario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -51,6 +51,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAdicionar)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BuscadorInventario)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -138,7 +139,7 @@
             // pictureBoxAdicionar
             // 
             this.pictureBoxAdicionar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAdicionar.Image")));
-            this.pictureBoxAdicionar.Location = new System.Drawing.Point(706, 16);
+            this.pictureBoxAdicionar.Location = new System.Drawing.Point(707, 13);
             this.pictureBoxAdicionar.Name = "pictureBoxAdicionar";
             this.pictureBoxAdicionar.Size = new System.Drawing.Size(30, 29);
             this.pictureBoxAdicionar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -148,8 +149,8 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.BuscadorInventario);
             this.panel4.Controls.Add(this.pictureBox5);
-            this.panel4.Controls.Add(this.textBox1);
             this.panel4.Controls.Add(this.pictureBoxAdicionar);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Controls.Add(this.flpInventario);
@@ -162,24 +163,12 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(745, 23);
+            this.pictureBox5.Location = new System.Drawing.Point(744, 14);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(22, 15);
+            this.pictureBox5.Size = new System.Drawing.Size(25, 26);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 36;
             this.pictureBox5.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox1.Location = new System.Drawing.Point(769, 20);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 20);
-            this.textBox1.TabIndex = 35;
-            this.textBox1.Text = "Buscar";
             // 
             // panel5
             // 
@@ -189,6 +178,35 @@
             this.panel5.TabIndex = 22;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             this.panel5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel5_MouseDown);
+            // 
+            // BuscadorInventario
+            // 
+            this.BuscadorInventario.AutoSize = false;
+            this.BuscadorInventario.CaptionStyle.CaptionSize = 0;
+            this.BuscadorInventario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.BuscadorInventario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.BuscadorInventario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.BuscadorInventario.CaptionStyle.StateStyles.DisabledStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BuscadorInventario.CaptionStyle.StateStyles.FocusStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BuscadorInventario.CaptionStyle.StateStyles.HoverStyle.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BuscadorInventario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.BuscadorInventario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.BuscadorInventario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.BuscadorInventario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.BuscadorInventario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.BuscadorInventario.EditBoxStyle.FlashBackColor = System.Drawing.Color.DodgerBlue;
+            this.BuscadorInventario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BuscadorInventario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BuscadorInventario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.BuscadorInventario.EditBoxStyle.StateStyles.DisabledStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BuscadorInventario.EditBoxStyle.StateStyles.FocusStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BuscadorInventario.EditBoxStyle.StateStyles.HoverStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BuscadorInventario.Location = new System.Drawing.Point(773, 8);
+            this.BuscadorInventario.Name = "BuscadorInventario";
+            this.BuscadorInventario.Size = new System.Drawing.Size(219, 38);
+            this.BuscadorInventario.TabIndex = 452;
+            this.BuscadorInventario.ValidationStyle.PasswordChar = '\0';
+            this.BuscadorInventario.Value = "";
             // 
             // FormularioInventario
             // 
@@ -213,8 +231,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAdicionar)).EndInit();
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BuscadorInventario)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -233,6 +251,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.TextBox textBox1;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox BuscadorInventario;
     }
 }

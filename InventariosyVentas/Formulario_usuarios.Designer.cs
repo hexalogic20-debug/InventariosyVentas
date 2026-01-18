@@ -36,14 +36,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.labelNombre = new System.Windows.Forms.Label();
             this.labelDocumento = new System.Windows.Forms.Label();
-            this.buttonNuevo = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBoxBuscarUsuarios = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.TextBoxBuscarNombreUsuario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.TextBoxBuscraDocumentoUsuario = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
+            this.buttonNuevo = new Klik.Windows.Forms.v1.EntryLib.ELButton();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -52,6 +52,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxBuscarUsuarios)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TextBoxBuscarNombreUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TextBoxBuscraDocumentoUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonNuevo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -122,36 +126,10 @@
             this.pictureBoxUsuario.TabIndex = 25;
             this.pictureBoxUsuario.TabStop = false;
             // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox1.Location = new System.Drawing.Point(179, 138);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 20);
-            this.textBox1.TabIndex = 26;
-            this.textBox1.Text = "Buscar";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(483, 138);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 27;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(362, 138);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 28;
-            // 
             // labelNombre
             // 
             this.labelNombre.AutoSize = true;
-            this.labelNombre.Location = new System.Drawing.Point(359, 122);
+            this.labelNombre.Location = new System.Drawing.Point(327, 117);
             this.labelNombre.Name = "labelNombre";
             this.labelNombre.Size = new System.Drawing.Size(44, 13);
             this.labelNombre.TabIndex = 29;
@@ -160,30 +138,18 @@
             // labelDocumento
             // 
             this.labelDocumento.AutoSize = true;
-            this.labelDocumento.Location = new System.Drawing.Point(488, 122);
+            this.labelDocumento.Location = new System.Drawing.Point(551, 117);
             this.labelDocumento.Name = "labelDocumento";
             this.labelDocumento.Size = new System.Drawing.Size(62, 13);
             this.labelDocumento.TabIndex = 30;
             this.labelDocumento.Text = "Documento";
             // 
-            // buttonNuevo
-            // 
-            this.buttonNuevo.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonNuevo.ForeColor = System.Drawing.Color.White;
-            this.buttonNuevo.Location = new System.Drawing.Point(602, 131);
-            this.buttonNuevo.Name = "buttonNuevo";
-            this.buttonNuevo.Size = new System.Drawing.Size(102, 31);
-            this.buttonNuevo.TabIndex = 33;
-            this.buttonNuevo.Text = "Nuevo +";
-            this.buttonNuevo.UseVisualStyleBackColor = false;
-            this.buttonNuevo.Click += new System.EventHandler(this.buttonNuevo_Click);
-            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(155, 141);
+            this.pictureBox5.Location = new System.Drawing.Point(58, 136);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(22, 15);
+            this.pictureBox5.Size = new System.Drawing.Size(36, 25);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 34;
             this.pictureBox5.TabStop = false;
@@ -196,20 +162,123 @@
             this.dataGridView1.Size = new System.Drawing.Size(1007, 443);
             this.dataGridView1.TabIndex = 35;
             // 
+            // textBoxBuscarUsuarios
+            // 
+            this.textBoxBuscarUsuarios.AutoSize = false;
+            this.textBoxBuscarUsuarios.CaptionStyle.CaptionSize = 0;
+            this.textBoxBuscarUsuarios.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.textBoxBuscarUsuarios.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxBuscarUsuarios.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxBuscarUsuarios.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.textBoxBuscarUsuarios.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxBuscarUsuarios.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.textBoxBuscarUsuarios.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.textBoxBuscarUsuarios.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.textBoxBuscarUsuarios.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.textBoxBuscarUsuarios.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxBuscarUsuarios.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBoxBuscarUsuarios.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.textBoxBuscarUsuarios.Location = new System.Drawing.Point(97, 131);
+            this.textBoxBuscarUsuarios.Name = "textBoxBuscarUsuarios";
+            this.textBoxBuscarUsuarios.Size = new System.Drawing.Size(219, 38);
+            this.textBoxBuscarUsuarios.TabIndex = 453;
+            this.textBoxBuscarUsuarios.ValidationStyle.PasswordChar = '\0';
+            this.textBoxBuscarUsuarios.Value = "";
+            // 
+            // TextBoxBuscarNombreUsuario
+            // 
+            this.TextBoxBuscarNombreUsuario.AutoSize = false;
+            this.TextBoxBuscarNombreUsuario.CaptionStyle.CaptionSize = 0;
+            this.TextBoxBuscarNombreUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.TextBoxBuscarNombreUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.TextBoxBuscarNombreUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.TextBoxBuscarNombreUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.TextBoxBuscarNombreUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.TextBoxBuscarNombreUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.TextBoxBuscarNombreUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.TextBoxBuscarNombreUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.TextBoxBuscarNombreUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.TextBoxBuscarNombreUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxBuscarNombreUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TextBoxBuscarNombreUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.TextBoxBuscarNombreUsuario.Location = new System.Drawing.Point(323, 131);
+            this.TextBoxBuscarNombreUsuario.Name = "TextBoxBuscarNombreUsuario";
+            this.TextBoxBuscarNombreUsuario.Size = new System.Drawing.Size(219, 38);
+            this.TextBoxBuscarNombreUsuario.TabIndex = 454;
+            this.TextBoxBuscarNombreUsuario.ValidationStyle.PasswordChar = '\0';
+            this.TextBoxBuscarNombreUsuario.Value = "";
+            // 
+            // TextBoxBuscraDocumentoUsuario
+            // 
+            this.TextBoxBuscraDocumentoUsuario.AutoSize = false;
+            this.TextBoxBuscraDocumentoUsuario.CaptionStyle.CaptionSize = 0;
+            this.TextBoxBuscraDocumentoUsuario.CaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.TextBoxBuscraDocumentoUsuario.CaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.TextBoxBuscraDocumentoUsuario.CaptionStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.TextBoxBuscraDocumentoUsuario.CaptionStyle.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.TextBoxBuscraDocumentoUsuario.Cursor = System.Windows.Forms.Cursors.Default;
+            this.TextBoxBuscraDocumentoUsuario.EditBoxStyle.BackColor = System.Drawing.Color.White;
+            this.TextBoxBuscraDocumentoUsuario.EditBoxStyle.BorderStyle.BorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.TextBoxBuscraDocumentoUsuario.EditBoxStyle.BorderStyle.EdgeRadius = 10;
+            this.TextBoxBuscraDocumentoUsuario.EditBoxStyle.FlashBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.TextBoxBuscraDocumentoUsuario.EditBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxBuscraDocumentoUsuario.EditBoxStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TextBoxBuscraDocumentoUsuario.EditBoxStyle.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
+            this.TextBoxBuscraDocumentoUsuario.Location = new System.Drawing.Point(548, 131);
+            this.TextBoxBuscraDocumentoUsuario.Name = "TextBoxBuscraDocumentoUsuario";
+            this.TextBoxBuscraDocumentoUsuario.Size = new System.Drawing.Size(219, 38);
+            this.TextBoxBuscraDocumentoUsuario.TabIndex = 455;
+            this.TextBoxBuscraDocumentoUsuario.ValidationStyle.PasswordChar = '\0';
+            this.TextBoxBuscraDocumentoUsuario.Value = "";
+            // 
+            // buttonNuevo
+            // 
+            this.buttonNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonNuevo.BackgroundStyle.GradientAngle = 0F;
+            this.buttonNuevo.BackgroundStyle.GradientEndColor = System.Drawing.Color.DodgerBlue;
+            this.buttonNuevo.BackgroundStyle.GradientStartColor = System.Drawing.Color.DodgerBlue;
+            this.buttonNuevo.BackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.buttonNuevo.BackgroundStyle.SolidColor = System.Drawing.Color.DodgerBlue;
+            this.buttonNuevo.BorderStyle.SolidColor = System.Drawing.Color.Teal;
+            this.buttonNuevo.Cursor = System.Windows.Forms.Cursors.Default;
+            this.buttonNuevo.DropDownArrowColor = System.Drawing.Color.White;
+            this.buttonNuevo.EnableThemes = false;
+            this.buttonNuevo.FlashStyle.GradientEndColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonNuevo.FlashStyle.GradientStartColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonNuevo.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.buttonNuevo.FlashStyle.SolidColor = System.Drawing.Color.OrangeRed;
+            this.buttonNuevo.ForegroundImageStyle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonNuevo.Location = new System.Drawing.Point(827, 134);
+            this.buttonNuevo.Name = "buttonNuevo";
+            this.buttonNuevo.Size = new System.Drawing.Size(137, 33);
+            this.buttonNuevo.StateStyles.HoverStyle.BackgroundGradientEndColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonNuevo.StateStyles.HoverStyle.BackgroundGradientStartColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonNuevo.StateStyles.HoverStyle.BackgroundSolidColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonNuevo.StateStyles.HoverStyle.BorderBorderType = Klik.Windows.Forms.v1.Common.BorderTypes.None;
+            this.buttonNuevo.StateStyles.HoverStyle.BorderSolidColor = System.Drawing.Color.LightSteelBlue;
+            this.buttonNuevo.TabIndex = 459;
+            this.buttonNuevo.TextStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.buttonNuevo.TextStyle.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNuevo.TextStyle.ForeColor = System.Drawing.Color.White;
+            this.buttonNuevo.TextStyle.Text = "Nuevo+";
+            this.buttonNuevo.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.buttonNuevo.VisualStyle = Klik.Windows.Forms.v1.EntryLib.ButtonVisualStyles.Custom;
+            this.buttonNuevo.Click += new System.EventHandler(this.buttonNuevo_Click_1);
+            // 
             // Formulario_usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1097, 649);
+            this.Controls.Add(this.buttonNuevo);
+            this.Controls.Add(this.TextBoxBuscraDocumentoUsuario);
+            this.Controls.Add(this.TextBoxBuscarNombreUsuario);
+            this.Controls.Add(this.textBoxBuscarUsuarios);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.buttonNuevo);
             this.Controls.Add(this.labelDocumento);
             this.Controls.Add(this.labelNombre);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
@@ -229,6 +298,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxBuscarUsuarios)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TextBoxBuscarNombreUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TextBoxBuscraDocumentoUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonNuevo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,13 +316,13 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBoxUsuario;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label labelNombre;
         private System.Windows.Forms.Label labelDocumento;
-        private System.Windows.Forms.Button buttonNuevo;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox textBoxBuscarUsuarios;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox TextBoxBuscarNombreUsuario;
+        internal Klik.Windows.Forms.v1.EntryLib.ELEntryBox TextBoxBuscraDocumentoUsuario;
+        internal Klik.Windows.Forms.v1.EntryLib.ELButton buttonNuevo;
     }
 }

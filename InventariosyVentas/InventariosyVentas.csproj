@@ -36,8 +36,9 @@
     <ApplicationIcon>IconoPrincioal.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Klik.Windows.Forms.EntryLib.V2.2005">
-      <HintPath>..\..\..\Librerias\Klik.Windows.Forms.EntryLib.V2.2005.dll</HintPath>
+    <Reference Include="Klik.Windows.Forms.EntryLib.V2.2005, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
