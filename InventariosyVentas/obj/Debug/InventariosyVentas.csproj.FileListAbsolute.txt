@@ -71,3 +71,4 @@ D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\For
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.cs
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\bin\Debug\Form1.Designer.cs
 D:\Programas_cSharp_Personal\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.config
+C:\Users\EMANUEL\source\repos\InventariosyVentas\InventariosyVentas\obj\Debug\InventariosyVentas.exe.licenses
